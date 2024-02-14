@@ -11,17 +11,6 @@ function Footer() {
               <div className="mil-muted mil-logo mil-up mil-mb-30">
                 Night Owl.
               </div>
-              <div className="mil-light-soft mil-up mil-mb-30">
-                Subscribe our newsletter:
-              </div>
-              <form className="mil-subscribe-form mil-up">
-                <input type="text" placeholder="Enter our email" />
-                <button
-                  title="title"
-                  type="submit"
-                  className="mil-button mil-icon-button-sm mil-arrow-place"
-                />
-              </form>
             </div>
             <div className="col-md-7 col-lg-6">
               <div className="row justify-content-end">

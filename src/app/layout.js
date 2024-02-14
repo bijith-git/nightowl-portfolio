@@ -22,6 +22,12 @@ export const metadata = {
 function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        ></link>
+      </head>
       <body className={outfit.className}>{children}</body>{" "}
       <Script type="text/javascript" src="js/plugins/jquery.min.js" />
       <Script type="text/javascript" src="js/plugins/swup.min.js" async />

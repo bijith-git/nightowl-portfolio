@@ -1,5 +1,4 @@
 "use client";
-import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -36,19 +35,15 @@ export default function Hero() {
                   Welcome to Night Owl , where dreams take flight, and every
                   frame is a masterpiece. Explore the magic within the shadows,
                   where your narrative&nbsp;unfolds
-                  {/* Welcome to our world of endless imagination and
-                  boundless creativity. Together, let's embark on a
-                  remarkable journey where dreams become tangible
-                  realities. */}
                 </div>
               </div>
             </div>
-            {/* <a href="" className="mil-button mil-arrow-place mil-btn-space"> */}
-            <span>What we do</span>
-            {/* </a> */}
-            {/* <a href="" className="mil-link mil-muted mil-arrow-place"> */}
-            <span>View works</span>
-            {/* </a> */}
+            <a href="" className="mil-button mil-arrow-place mil-btn-space">
+              <span>What we do</span>
+            </a>
+            <div className="mil-link mil-muted mil-arrow-place">
+              <span>View works</span>
+            </div>
             <div className="mil-circle-text">
               <svg
                 version="1.1"
@@ -72,17 +67,16 @@ export default function Hero() {
                 <g>
                   <use xlinkHref="#circlePath" fill="none" />
                   <text style={{ letterSpacing: "6.5px" }}>
-                    {/* circle text */}
                     <textPath xlinkHref="#circlePath">
                       Scroll down - Scroll down -
                     </textPath>
                   </text>
                 </g>
               </svg>
-              {/* <a
-                href=""
-                className="mil-button mil-arrow-place mil-icon-button mil-arrow-down"
-              /> */}
+              <a
+                href="#about"
+                class="mil-button mil-arrow-place mil-icon-button mil-arrow-down"
+              ></a>
             </div>
           </div>
         </div>
