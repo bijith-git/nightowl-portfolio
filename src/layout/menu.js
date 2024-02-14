@@ -109,11 +109,11 @@ export default function Menu() {
                     <div className="row justify-content-between">
                       <div className="col-lg-4 mil-mb-60">
                         <h6 className="mil-muted mil-mb-30">Kerala</h6>
-                        <p className="mil-light-soft mil-up">
+                        <div className="mil-light-soft mil-up">
                           Somratn, 57/627, Water land road Elamkulam,Ernakulam
                           682020
                           <span className="mil-no-wrap">+91 8113864689</span>
-                        </p>
+                        </div>
                       </div>
                     </div>
                   </div>
