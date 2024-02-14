@@ -23,22 +23,27 @@ function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={outfit.className}>{children}</body>{" "}
-      <Script src="js/plugins/jquery.min.js" defer />
-      <Script src="js/plugins/swup.min.js" defer />
-      <Script src="js/plugins/swiper.min.js" defer />
-      <Script src="js/plugins/fancybox.min.js" defer />
-      <Script src="js/plugins/gsap.min.js" defer />
-      {/* <Script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" /> */}
-      <Script src="js/plugins/smooth-scroll.js" defer />
-      <Script src="js/plugins/ScrollTrigger.min.js" defer />
-      <Script src="js/plugins/ScrollTo.min.js" defer />
-      <Script src="js/main.js" defer />
+      <Script type="text/javascript" src="js/plugins/jquery.min.js" />
+      <Script type="text/javascript" src="js/plugins/swup.min.js" async />
+      <Script type="text/javascript" src="js/plugins/swiper.min.js" async />
+      <Script type="text/javascript" src="js/plugins/fancybox.min.js" async />
+      <Script type="text/javascript" src="js/plugins/gsap.min.js" async />
+      <Script type="text/javascript" src="js/plugins/smooth-scroll.js" async />
+      {/* <Script
+        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        async
+      /> */}
+      {/* <Script
+        src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"
+        async
+      /> */}
       <Script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"
+        type="text/javascript"
+        src="js/plugins/ScrollTrigger.min.js"
         async
       />
+      <Script type="text/javascript" src="js/plugins/ScrollTo.min.js" async />
+      <Script type="text/javascript" src="js/main.js" async />
     </html>
   );
 }
