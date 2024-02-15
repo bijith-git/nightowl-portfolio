@@ -52,17 +52,19 @@ const Portfolio = () => {
               >
                 <div className="mil-cover-frame mil-vert mil-up">
                   <div className="mil-cover">
-                    <img src="img/works/1.jpg" alt="cover" />
+                    <img src="img/works/1.png" alt="cover" />
                   </div>
                 </div>
                 <div className="mil-descr">
                   <div className="mil-labels mil-up mil-mb-15">
                     <div className="mil-label mil-upper mil-accent">
-                      Branding
+                      Spot Editing
                     </div>
-                    <div className="mil-label mil-upper">may 24 2023</div>
+                    <div className="mil-label mil-upper">
+                      September 17, 20233
+                    </div>
                   </div>
-                  <h4 className="mil-up">Interior design studio</h4>
+                  <h4 className="mil-up">Feny</h4>
                 </div>
               </a>
             </div>
@@ -83,7 +85,7 @@ const Portfolio = () => {
                     <div className="mil-label mil-upper mil-accent">Design</div>
                     <div className="mil-label mil-upper">may 24 2023</div>
                   </div>
-                  <h4 className="mil-up">Home Security Camera</h4>
+                  <h4 className="mil-up">NDSF</h4>
                 </div>
               </a>
             </div>
@@ -104,7 +106,7 @@ const Portfolio = () => {
                     <div className="mil-label mil-upper mil-accent">Design</div>
                     <div className="mil-label mil-upper">may 24 2023</div>
                   </div>
-                  <h4 className="mil-up">Kemia Honest Skincare</h4>
+                  <h4 className="mil-up">VYMK</h4>
                 </div>
               </a>
             </div>
@@ -115,7 +117,7 @@ const Portfolio = () => {
               >
                 <div className="mil-cover-frame mil-vert mil-up">
                   <div className="mil-cover">
-                    <img src="img/works/4.jpg" alt="cover" />
+                    <img src="img/works/4.png" alt="cover" />
                   </div>
                 </div>
                 <div className="mil-descr">
@@ -125,7 +127,7 @@ const Portfolio = () => {
                     </div>
                     <div className="mil-label mil-upper">may 24 2023</div>
                   </div>
-                  <h4 className="mil-up">Cascade of Lava</h4>
+                  <h4 className="mil-up">MUSEUM</h4>
                 </div>
               </a>
             </div>
@@ -144,7 +146,7 @@ const Portfolio = () => {
                     <div className="mil-label mil-upper mil-accent">Design</div>
                     <div className="mil-label mil-upper">may 24 2023</div>
                   </div>
-                  <h4 className="mil-up">Air Pro by Molekule</h4>
+                  <h4 className="mil-up">STRING</h4>
                 </div>
               </a>
             </div>
@@ -165,15 +167,13 @@ const Portfolio = () => {
                     <div className="mil-label mil-upper mil-accent">Design</div>
                     <div className="mil-label mil-upper">may 24 2023</div>
                   </div>
-                  <h4 className="mil-up">Tony&apos;s Chocolonely</h4>
+                  <h4 className="mil-up">HOT DEGREE</h4>
                 </div>
               </a>
             </div>
           </div>
         </div>
       </section>
-      {/* portfolio end */}
-      {/* call to action */}
       <section className="mil-soft-bg">
         <div className="container mil-p-120-120">
           <div className="row">

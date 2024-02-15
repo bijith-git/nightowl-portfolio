@@ -43,8 +43,6 @@ const Services = () => {
               </div>
             </div>
           </div>
-          {/* banner end */}
-          {/* services */}
           <section id="services">
             <div className="mi-invert-fix">
               <div className="container mil-p-120-60">
@@ -157,8 +155,6 @@ const Services = () => {
             </div>
           </section>
         </div>
-        {/* services end */}
-        {/* call to action */}
         <section className="mil-soft-bg">
           <div className="container mil-p-120-120">
             <div className="row">
