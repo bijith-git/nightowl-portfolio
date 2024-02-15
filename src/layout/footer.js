@@ -21,13 +21,13 @@ function Footer() {
                         <Link href="/">Home</Link>
                       </li>
                       <li className="mil-up">
-                        <Link href="portfolio-1.html">Portfolio</Link>
+                        <Link href="/portfolio">Portfolio</Link>
                       </li>
                       <li className="mil-up">
-                        <Link href="services.html">Services</Link>
+                        <Link href="/services">Services</Link>
                       </li>
                       <li className="mil-up">
-                        <Link href="contact.html">Contact</Link>
+                        <Link href="/contact">Contact</Link>
                       </li>
                     </ul>
                   </nav>

@@ -20,13 +20,13 @@ export default function Menu() {
                       <a href="/">Home</a>
                     </li>
                     <li className="mil-has-children">
-                      <a href="portfolio-1.html">Portfolio</a>
+                      <a href="/portfolio">Portfolio</a>
                     </li>
                     <li className="mil-has-children">
-                      <a href="services.html">Services</a>
+                      <a href="/services">Services</a>
                     </li>
                     <li className="mil-has-children">
-                      <a href="contact.html">Contact</a>
+                      <a href="/contact">Contact</a>
                     </li>
                   </ul>
                 </nav>
