@@ -20,13 +20,13 @@ const MainLayout = ({ children, header, footer, noFooter, onePageMenu }) => {
           <a href="/" className="mil-logo">
             N.
           </a>
-          <div class="mil-menu-btn">
+          <div className="mil-menu-btn">
             <span></span>
           </div>
         </div>
       </div>
-      <div class="mil-content">
-        <div id="swupMain" class="mil-main-transition">
+      <div className="mil-content">
+        <div id="swupMain" className="mil-main-transition">
           {children}
         </div>
       </div>
