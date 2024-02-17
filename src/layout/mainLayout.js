@@ -7,7 +7,7 @@ import ScrollProgress from "./scrollProgress";
 import Curtain from "./curtain";
 import PentagonAnimation from "./pentagon";
 
-const MainLayout = ({ children, header, footer, noFooter, onePageMenu }) => {
+const MainLayout = ({ children, noFooter }) => {
   return (
     <div className="mil-wrapper" id="top">
       <CustomCursor />

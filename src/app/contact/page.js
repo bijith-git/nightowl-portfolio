@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
-    <div class="mil-content">
-      <div id="swupMain" class="mil-main-transition">
+    <div className="mil-content">
+      <div id="swupMain" className="mil-main-transition">
         <div className="mil-inner-banner mil-p-0-120">
           <div className="mil-banner-content mil-center mil-up">
             <div className="container">
