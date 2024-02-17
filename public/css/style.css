@@ -2748,7 +2748,7 @@ revievs
   box-shadow: inset 0 0 0 4px rgb(255, 255, 255);
 }
 .mil-revi-pagination .swiper-pagination-bullet .mil-custom-dot {
-  background-color: red;
+  background-color: white;
   width: 90px;
   height: 90px;
   border-radius: 50%;
