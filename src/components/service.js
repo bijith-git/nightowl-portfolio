@@ -54,10 +54,10 @@ export default function Service() {
                   Branding and <br />
                   Identity Design
                 </h5>
-                <p className="mil-light-soft mil-mb-30">
+                <div className="mil-light-soft mil-mb-30">
                   Our creative agency is a team of professionals focused on
                   helping your brand grow.
-                </p>
+                </div>
                 <div className="mil-button mil-icon-button-sm mil-arrow-place" />
               </a>
             </div>
@@ -67,12 +67,12 @@ export default function Service() {
                   Website Design <br />
                   and Development
                 </h5>
-                <p className="mil-light-soft mil-mb-30">
+                <div className="mil-light-soft mil-mb-30">
                   Crucial for designing an engaging, functional, and intuitive
                   online presence that harmonizes with your brand&apos;s
                   essence.An agile and comprehensive approach to developing and
                   maintaining cutting-edge websites and web applications
-                </p>
+                </div>
                 <div className="mil-button mil-icon-button-sm mil-arrow-place" />
               </a>
             </div>
@@ -82,12 +82,12 @@ export default function Service() {
                   Advertisement and <br />
                   Digital Marketing
                 </h5>
-                <p className="mil-light-soft mil-mb-30">
+                <div className="mil-light-soft mil-mb-30">
                   Advertisement production focuses on crafting impactful content
                   to promote products, services, or brands effectively. Digital
                   marketing transcends borders, connecting you with a diverse,
                   global audience through innovative strategies
-                </p>
+                </div>
                 <div className="mil-button mil-icon-button-sm mil-arrow-place" />
               </a>
             </div>
@@ -97,11 +97,11 @@ export default function Service() {
                   Photography and <br />
                   Videography
                 </h5>
-                <p className="mil-light-soft mil-mb-30">
+                <div className="mil-light-soft mil-mb-30">
                   We capture the essence of all your special events, from
                   weddings and parties to corporate seminars and exhibitions,
                   with our versatile photography services
-                </p>
+                </div>
                 <div className="mil-button mil-icon-button-sm mil-arrow-place" />
               </a>
             </div>

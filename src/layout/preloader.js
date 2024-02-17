@@ -3,14 +3,14 @@ export default function Preloader() {
     <div className="mil-preloader">
       <div className="mil-preloader-animation">
         <div className="mil-pos-abs mil-animation-1">
-          <p className="mil-h3 mil-muted mil-thin">Capture</p>
-          <p className="mil-h3 mil-muted">Craft</p>
-          <p className="mil-h3 mil-muted mil-thin">Inspire</p>
+          <div className="mil-h3 mil-muted mil-thin">Capture</div>
+          <div className="mil-h3 mil-muted">Craft</div>
+          <div className="mil-h3 mil-muted mil-thin">Inspire</div>
         </div>
         <div className="mil-pos-abs mil-animation-2">
           <div className="mil-reveal-frame">
-            <p className="mil-reveal-box" />
-            <p className="mil-h3 mil-muted mil-thin">Night Owl</p>
+            <div className="mil-reveal-box" />
+            <div className="mil-h3 mil-muted mil-thin">Night Owl</div>
           </div>
         </div>
       </div>

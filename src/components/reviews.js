@@ -41,16 +41,16 @@ export default function Review() {
                     data-swiper-parallax-opacity={0}
                   >
                     <h5 className="mil-up mil-mb-10">Riya Simon</h5>
-                    <p className="mil-mb-5 mil-upper mil-up mil-mb-30">
+                    <div className="mil-mb-5 mil-upper mil-up mil-mb-30">
                       Kochi,Kerala
-                    </p>
-                    <p className="mil-text-xl mil-up">
+                    </div>
+                    <div className="mil-text-xl mil-up">
                       I Must say- they are best for a reason. They covered my
                       Sister&apos;s wedding functions in such a beautiful
                       way....that every time anyone who watches the pictures and
                       especially video can&apos;t go away only watching
                       once....so happy that we&nbsp;chose&nbsp;them....
-                    </p>
+                    </div>
                   </div>
                 </div>
                 <div className="swiper-slide">
@@ -60,15 +60,15 @@ export default function Review() {
                     data-swiper-parallax-opacity={0}
                   >
                     <h5 className="mil-up mil-mb-10">Swathy Swaminad</h5>
-                    <p className="mil-mb-5 mil-upper mil-up mil-mb-30">
+                    <div className="mil-mb-5 mil-upper mil-up mil-mb-30">
                       Kochi,Kerala
-                    </p>
-                    <p className="mil-text-xl mil-up">
+                    </div>
+                    <div className="mil-text-xl mil-up">
                       Our collaboration with Nightowlmedia has been
                       exceptionally positive. The design team demonstrated
                       excellent communication, promptly addressing our needs and
                       receptive&nbsp;to&nbsp;feedback.
-                    </p>
+                    </div>
                   </div>
                 </div>
                 <div className="swiper-slide">
@@ -78,14 +78,14 @@ export default function Review() {
                     data-swiper-parallax-opacity={0}
                   >
                     <h5 className="mil-up mil-mb-10">Parvathy Ayyappadas</h5>
-                    <p className="mil-mb-5 mil-upper mil-up mil-mb-30">
+                    <div className="mil-mb-5 mil-upper mil-up mil-mb-30">
                       Actress
-                    </p>
-                    <p className="mil-text-xl mil-up">
+                    </div>
+                    <div className="mil-text-xl mil-up">
                       Professional Videography! Their creative approach,
                       professionalism, and attention to detail
                       were&nbsp;exceptional.
-                    </p>
+                    </div>
                   </div>
                 </div>
                 <div className="swiper-slide">
@@ -95,14 +95,14 @@ export default function Review() {
                     data-swiper-parallax-opacity={0}
                   >
                     <h5 className="mil-up mil-mb-10">Jaffrin Jacob</h5>
-                    <p className="mil-mb-5 mil-upper mil-up mil-mb-30">
+                    <div className="mil-mb-5 mil-upper mil-up mil-mb-30">
                       Kochi,Kerala
-                    </p>
-                    <p className="mil-text-xl mil-up">
+                    </div>
+                    <div className="mil-text-xl mil-up">
                       It&apos;s having an wonderful experience while shooting
                       with them.. The elegance, style of shooting n perfection
                       is completely&nbsp;phenomenal.
-                    </p>
+                    </div>
                   </div>
                 </div>
               </div>

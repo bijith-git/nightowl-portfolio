@@ -9,7 +9,7 @@ export default function About() {
                 Discover <br />
                 Our <span className="mil-thin">Studio</span>
               </h2>
-              <p className="mil-up mil-mb-30">
+              <div className="mil-up mil-mb-30">
                 Welcome to Night Owl, where creativity meets impact. Our
                 expertise lies in advertising, branding, and design, where we
                 craft compelling narratives that resonate deeply. Our
@@ -18,15 +18,15 @@ export default function About() {
                 heights. Join us on a journey where the night becomes a canvas
                 for innovation and excellence. At Night Owl, your story
                 isn&apos;t just told, it&apos;s vividly brought to life.
-              </p>
-              {/* <p className="mil-up mil-mb-60">
+              </div>
+              {/* <div className="mil-up mil-mb-60">
                 Collaboration is at the heart of what we do. Our team
                 thrives on the synergy that arises when unique
                 perspectives converge, fostering an environment of
                 boundless creativity. By harnessing our collective
                 expertise, we produce extraordinary results that
                 consistently surpass expectations.
-              </p> */}
+              </div> */}
               {/* <div className="mil-about-quote">
                 <div className="mil-avatar mil-up">
                   <img src="img/faces/customers/2.jpg" alt="Founder" />
