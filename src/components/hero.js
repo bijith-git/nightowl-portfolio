@@ -75,7 +75,7 @@ export default function Hero() {
               </svg>
               <a
                 href="#about"
-                class="mil-button mil-arrow-place mil-icon-button mil-arrow-down"
+                className="mil-button mil-arrow-place mil-icon-button mil-arrow-down"
               ></a>
             </div>
           </div>

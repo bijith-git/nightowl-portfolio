@@ -19,7 +19,7 @@ export default function About() {
                 for innovation and excellence. At Night Owl, your story
                 isn&apos;t just told, it&apos;s vividly brought to life.
               </p>
-              {/* <p class="mil-up mil-mb-60">
+              {/* <p className="mil-up mil-mb-60">
                 Collaboration is at the heart of what we do. Our team
                 thrives on the synergy that arises when unique
                 perspectives converge, fostering an environment of
@@ -27,14 +27,14 @@ export default function About() {
                 expertise, we produce extraordinary results that
                 consistently surpass expectations.
               </p> */}
-              {/* <div class="mil-about-quote">
-                <div class="mil-avatar mil-up">
+              {/* <div className="mil-about-quote">
+                <div className="mil-avatar mil-up">
                   <img src="img/faces/customers/2.jpg" alt="Founder" />
                 </div>
-                <h6 class="mil-quote mil-up">
+                <h6 className="mil-quote mil-up">
                   Passionately Creating
-                  <span class="mil-thin">Design Wonders:</span> Unleashing
-                  <span class="mil-thin">Boundless Creativity</span>
+                  <span className="mil-thin">Design Wonders:</span> Unleashing
+                  <span className="mil-thin">Boundless Creativity</span>
                 </h6>
               </div> */}
             </div>
