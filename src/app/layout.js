@@ -29,12 +29,21 @@ function RootLayout({ children }) {
         ></link>
       </head>
       <body className={outfit.className}>{children}</body>{" "}
-      <Script type="text/javascript" src="js/plugins/jquery.min.js" />
+      {/* <Script type="text/javascript" src="js/plugins/jquery.min.js" /> */}
+      <Script
+        type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        async
+      />
       <Script type="text/javascript" src="js/plugins/swup.min.js" async />
       <Script type="text/javascript" src="js/plugins/swiper.min.js" async />
-      <Script type="text/javascript" src="js/plugins/fancybox.min.js" async />
+      <Script
+        type="text/javascript"
+        src="public/js/plugins/fancybox.min.js"
+        async
+      />
       <Script type="text/javascript" src="js/plugins/gsap.min.js" async />
-      <Script type="text/javascript" src="js/plugins/smooth-scroll.js" async />
+      <Script type="text/javascript" src="js/plugins/smooth-scroll.js" async />fancybox
       {/* <Script
         src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
         async
