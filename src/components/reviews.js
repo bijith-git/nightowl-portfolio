@@ -104,6 +104,55 @@ export default function Review() {
                       is completely&nbsp;phenomenal.
                     </div>
                   </div>
+                </div>{" "}
+                <div className="swiper-slide">
+                  <div
+                    className="mil-review-frame mil-center"
+                    data-swiper-parallax={-200}
+                    data-swiper-parallax-opacity={0}
+                  >
+                    <h5 className="mil-up mil-mb-10">Joseph George</h5>
+                    <div className="mil-mb-5 mil-upper mil-up mil-mb-30">
+                      Kochi,Kerala
+                    </div>
+                    <div className="mil-text-xl mil-up">
+                      Huge thanks to this video production crew for their hard
+                      work and commitment to excellence.
+                    </div>
+                  </div>
+                </div>{" "}
+                <div className="swiper-slide">
+                  <div
+                    className="mil-review-frame mil-center"
+                    data-swiper-parallax={-200}
+                    data-swiper-parallax-opacity={0}
+                  >
+                    <h5 className="mil-up mil-mb-10">Noufal muhammed</h5>
+                    <div className="mil-mb-5 mil-upper mil-up mil-mb-30">
+                      Kochi,Kerala
+                    </div>
+                    <div className="mil-text-xl mil-up">
+                      Kudos to this awesome video production crew!
+                    </div>
+                  </div>
+                </div>{" "}
+                <div className="swiper-slide">
+                  <div
+                    className="mil-review-frame mil-center"
+                    data-swiper-parallax={-200}
+                    data-swiper-parallax-opacity={0}
+                  >
+                    <h5 className="mil-up mil-mb-10">Abhishek</h5>
+                    <div className="mil-mb-5 mil-upper mil-up mil-mb-30">
+                      Kochi,Kerala
+                    </div>
+                    <div className="mil-text-xl mil-up">
+                      I&apos;m not usually one to leave reviews, but this team
+                      deserves it! They took my ideas and made them shine
+                      online. I&apos;m seeing more customers come
+                      my way already!.
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
