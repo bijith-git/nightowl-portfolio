@@ -1,11 +1,15 @@
+"use client";
 import { useEffect, useState } from "react";
 
 const Menu = () => {
-  const [currentPath, setCurrentPath] = useState(window.location.pathname);
+  const isBrowser = typeof window !== "undefined";
+  const [currentPath, setCurrentPath] = useState(
+    isBrowser ? window.location.pathname : ""
+  );
 
   useEffect(() => {
     const handleRouteChange = () => {
-      const newPath = window.location.pathname;
+      const newPath = isBrowser ? window.location.pathname : "";
       setCurrentPath(newPath);
       updateActiveMenu(newPath);
     };
@@ -14,29 +18,33 @@ const Menu = () => {
     updateActiveMenu(currentPath);
 
     // Subscribe to route changes to update the active class
-    window.addEventListener("popstate", handleRouteChange);
+    if (isBrowser) {
+      window.addEventListener("popstate", handleRouteChange);
 
-    // Clean up the event listener on component unmount
-    return () => {
-      window.removeEventListener("popstate", handleRouteChange);
-    };
-  }, [currentPath]); // useEffect now depends on currentPath
+      // Clean up the event listener on component unmount
+      return () => {
+        window.removeEventListener("popstate", handleRouteChange);
+      };
+    }
+  }, [currentPath, isBrowser]); // useEffect now depends on currentPath and isBrowser
 
   const updateActiveMenu = (path) => {
-    const menuItems = document.querySelectorAll(".mil-main-menu a");
+    if (isBrowser) {
+      const menuItems = document.querySelectorAll(".mil-main-menu a");
 
-    menuItems.forEach((item) => {
-      const itemPath = item.getAttribute("href");
+      menuItems.forEach((item) => {
+        const itemPath = item.getAttribute("href");
 
-      // Check if the current path matches the item's href attribute
-      if (path === itemPath) {
-        // Add mil-active class to the parent li element
-        item.parentNode.classList.add("mil-active");
-      } else {
-        // Remove mil-active class from other li elements
-        item.parentNode.classList.remove("mil-active");
-      }
-    });
+        // Check if the current path matches the item's href attribute
+        if (path === itemPath) {
+          // Add mil-active class to the parent li element
+          item.parentNode.classList.add("mil-active");
+        } else {
+          // Remove mil-active class from other li elements
+          item.parentNode.classList.remove("mil-active");
+        }
+      });
+    }
   };
   return (
     <>

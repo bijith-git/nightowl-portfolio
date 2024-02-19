@@ -1,13 +1,16 @@
 "use client";
 import { useEffect, useState } from "react";
-
+import Image from "next/image";
 import Link from "next/link";
 function Footer() {
-  const [currentPath, setCurrentPath] = useState(window.location.pathname);
+  const [currentPath, setCurrentPath] = useState(
+    typeof window !== "undefined" ? window.location.pathname : ""
+  );
 
   useEffect(() => {
     const handleRouteChange = () => {
-      const newPath = window.location.pathname;
+      const newPath =
+        typeof window !== "undefined" ? window.location.pathname : "";
       setCurrentPath(newPath);
       updateActiveMenu(newPath);
     };
@@ -16,16 +19,18 @@ function Footer() {
     updateActiveMenu(currentPath);
 
     // Subscribe to route changes to update the active class
-    window.addEventListener("popstate", handleRouteChange);
+    if (typeof window !== "undefined") {
+      window.addEventListener("popstate", handleRouteChange);
 
-    // Clean up the event listener on component unmount
-    return () => {
-      window.removeEventListener("popstate", handleRouteChange);
-    };
+      // Clean up the event listener on component unmount
+      return () => {
+        window.removeEventListener("popstate", handleRouteChange);
+      };
+    }
   }, [currentPath]); // useEffect now depends on currentPath
 
   const updateActiveMenu = (path) => {
-    const menuItems = document.querySelectorAll(".mil-footer-menu li");
+    const menuItems = document.querySelectorAll(".mil-footer-menu a");
 
     menuItems.forEach((item) => {
       const itemPath = item.getAttribute("href");
@@ -116,22 +121,42 @@ function Footer() {
                   <ul className="mil-social-icons mil-up">
                     <li>
                       <Link href="" target="_blank" className="social-icon">
-                        <i className="far fa-circle" />
+                        <Image
+                          src="/circle.svg"
+                          width={18}
+                          height={18}
+                          alt="Cicle"
+                        />
                       </Link>
                     </li>
                     <li>
                       <Link href="" target="_blank" className="social-icon">
-                        <i className="far fa-circle" />
+                        <Image
+                          src="/circle.svg"
+                          width={18}
+                          height={18}
+                          alt="Cicle"
+                        />
                       </Link>
                     </li>
                     <li>
                       <Link href="" target="_blank" className="social-icon">
-                        <i className="far fa-circle" />
+                        <Image
+                          src="/circle.svg"
+                          width={18}
+                          height={18}
+                          alt="Cicle"
+                        />
                       </Link>
                     </li>
                     <li>
                       <Link href="" target="_blank" className="social-icon">
-                        <i className="far fa-circle" />
+                        <Image
+                          src="/circle.svg"
+                          width={18}
+                          height={18}
+                          alt="Cicle"
+                        />
                       </Link>
                     </li>
                   </ul>
