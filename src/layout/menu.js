@@ -1,4 +1,43 @@
-export default function Menu() {
+import { useEffect, useState } from "react";
+
+const Menu = () => {
+  const [currentPath, setCurrentPath] = useState(window.location.pathname);
+
+  useEffect(() => {
+    const handleRouteChange = () => {
+      const newPath = window.location.pathname;
+      setCurrentPath(newPath);
+      updateActiveMenu(newPath);
+    };
+
+    // Initial call when the component mounts
+    updateActiveMenu(currentPath);
+
+    // Subscribe to route changes to update the active class
+    window.addEventListener("popstate", handleRouteChange);
+
+    // Clean up the event listener on component unmount
+    return () => {
+      window.removeEventListener("popstate", handleRouteChange);
+    };
+  }, [currentPath]); // useEffect now depends on currentPath
+
+  const updateActiveMenu = (path) => {
+    const menuItems = document.querySelectorAll(".mil-main-menu a");
+
+    menuItems.forEach((item) => {
+      const itemPath = item.getAttribute("href");
+
+      // Check if the current path matches the item's href attribute
+      if (path === itemPath) {
+        // Add mil-active class to the parent li element
+        item.parentNode.classList.add("mil-active");
+      } else {
+        // Remove mil-active class from other li elements
+        item.parentNode.classList.remove("mil-active");
+      }
+    });
+  };
   return (
     <>
       <div className="mil-menu-frame">
@@ -16,7 +55,7 @@ export default function Menu() {
               <div className="col-xl-5">
                 <nav className="mil-main-menu" id="swupMenu">
                   <ul>
-                    <li className="mil-has-children mil-active">
+                    <li className="mil-has-children">
                       <a href="/">Home</a>
                     </li>
                     <li className="mil-has-children">
@@ -80,28 +119,28 @@ export default function Menu() {
                         </ul>
                       </div>
                       <div className="col-lg-4 mil-mb-60">
-                        <h6 className="mil-muted mil-mb-30">Useful links</h6>
+                        <h6 className="mil-muted mil-mb-30">Socials</h6>
                         <ul className="mil-menu-list">
                           <li>
                             <a href="" className="mil-light-soft">
-                              Privacy Policy
+                              Instagram
                             </a>
                           </li>
                           <li>
                             <a href="" className="mil-light-soft">
-                              Terms and conditions
+                              LinkedIn
                             </a>
                           </li>
                           <li>
                             <a href="" className="mil-light-soft">
-                              Cookie Policy
+                              Facebook
                             </a>
                           </li>
-                          <li>
+                          {/* <li>
                             <a href="" className="mil-light-soft">
                               Careers
                             </a>
-                          </li>
+                          </li> */}
                         </ul>
                       </div>
                     </div>
@@ -124,4 +163,5 @@ export default function Menu() {
       </div>
     </>
   );
-}
+};
+export default Menu;

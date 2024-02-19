@@ -25,9 +25,8 @@ export default function Hero() {
         <div className="container">
           <div className="mil-banner-content mil-up">
             <h1 className="mil-muted mil-mb-60">
-              <span className="mil-thin"> Unveiling</span>Tomorrow
-              <br />
-              Crafting <span className="mil-thin">Tonight</span>
+              <span className="mil-thin"> Unveiling </span>Tomorrow <br />
+              Crafting <span className="mil-thin"> Tonight</span>
             </h1>
             <div className="row">
               <div className="col-md-7 col-lg-5">
@@ -38,12 +37,15 @@ export default function Hero() {
                 </p>
               </div>
             </div>
-            <a href="" className="mil-button mil-arrow-place mil-btn-space">
+            <a
+              href="/services"
+              className="mil-button mil-arrow-place mil-btn-space"
+            >
               <span>What we do</span>
             </a>
-            <div className="mil-link mil-muted mil-arrow-place">
+            <a href="/portfolio" className="mil-link mil-muted mil-arrow-place">
               <span>View works</span>
-            </div>
+            </a>
             <div className="mil-circle-text">
               <svg
                 version="1.1"
@@ -76,7 +78,7 @@ export default function Hero() {
               <a
                 href="#about"
                 className="mil-button mil-arrow-place mil-icon-button mil-arrow-down"
-              ></a>
+              />
             </div>
           </div>
         </div>
