@@ -3,48 +3,48 @@ import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 function Footer() {
-  const [currentPath, setCurrentPath] = useState(
-    typeof window !== "undefined" ? window.location.pathname : ""
-  );
+  // const [currentPath, setCurrentPath] = useState(
+  //   typeof window !== "undefined" ? window.location.pathname : ""
+  // );
 
-  useEffect(() => {
-    const handleRouteChange = () => {
-      const newPath =
-        typeof window !== "undefined" ? window.location.pathname : "";
-      setCurrentPath(newPath);
-      updateActiveMenu(newPath);
-    };
+  // useEffect(() => {
+  //   const handleRouteChange = () => {
+  //     const newPath =
+  //       typeof window !== "undefined" ? window.location.pathname : "";
+  //     setCurrentPath(newPath);
+  //     updateActiveMenu(newPath);
+  //   };
 
-    // Initial call when the component mounts
-    updateActiveMenu(currentPath);
+  //   // Initial call when the component mounts
+  //   updateActiveMenu(currentPath);
 
-    // Subscribe to route changes to update the active class
-    if (typeof window !== "undefined") {
-      window.addEventListener("popstate", handleRouteChange);
+  //   // Subscribe to route changes to update the active class
+  //   if (typeof window !== "undefined") {
+  //     window.addEventListener("popstate", handleRouteChange);
 
-      // Clean up the event listener on component unmount
-      return () => {
-        window.removeEventListener("popstate", handleRouteChange);
-      };
-    }
-  }, [currentPath]); // useEffect now depends on currentPath
+  //     // Clean up the event listener on component unmount
+  //     return () => {
+  //       window.removeEventListener("popstate", handleRouteChange);
+  //     };
+  //   }
+  // }, [currentPath]); // useEffect now depends on currentPath
 
-  const updateActiveMenu = (path) => {
-    const menuItems = document.querySelectorAll(".mil-footer-menu a");
+  // const updateActiveMenu = (path) => {
+  //   const menuItems = document.querySelectorAll(".mil-footer-menu a");
 
-    menuItems.forEach((item) => {
-      const itemPath = item.getAttribute("href");
+  //   menuItems.forEach((item) => {
+  //     const itemPath = item.getAttribute("href");
 
-      // Check if the current path matches the item's href attribute
-      if (path === itemPath) {
-        // Add mil-active class to the parent li element
-        item.parentNode.classList.add("mil-active");
-      } else {
-        // Remove mil-active class from other li elements
-        item.parentNode.classList.remove("mil-active");
-      }
-    });
-  };
+  //     // Check if the current path matches the item's href attribute
+  //     if (path === itemPath) {
+  //       // Add mil-active class to the parent li element
+  //       item.parentNode.classList.add("mil-active");
+  //     } else {
+  //       // Remove mil-active class from other li elements
+  //       item.parentNode.classList.remove("mil-active");
+  //     }
+  //   });
+  // };
   return (
     <footer className="mil-dark-bg">
       <div className="mi-invert-fix">

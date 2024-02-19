@@ -54,7 +54,7 @@ const Services = () => {
                     <div className="row">
                       <div className="col-md-6 col-lg-6">
                         <a
-                          href="service.html"
+                          href="/contact"
                           className="mil-service-card-lg mil-more mil-accent-cursor mil-offset"
                         >
                           <h4 className="mil-muted mil-up mil-mb-30">
@@ -62,23 +62,24 @@ const Services = () => {
                             Identity Design
                           </h4>
                           <p className="mil-descr mil-light-soft mil-up mil-mb-30">
-                            Our creative agency is a team of professionals
-                            focused on helping your brand grow.
+                            Branding is about creating a distinctive mix of
+                            visual elements, messaging, and values that set a
+                            brand apart from its rivals
                           </p>
                           <ul className="mil-service-list mil-light mil-mb-30">
-                            <li className="mil-up">UX Audits</li>
-                            <li className="mil-up">Design thinking</li>
-                            <li className="mil-up">Methodologies</li>
-                            <li className="mil-up">Wireframing</li>
+                            <li className="mil-up">Brand Strategys</li>
+                            <li className="mil-up">Logo Design</li>
+                            <li className="mil-up">Brand Guidelines</li>
+                            <li className="mil-up">Brand Identity</li>
                           </ul>
                           <div className="mil-link mil-accent mil-arrow-place mil-up">
-                            <span>Read more</span>
+                            <span>Know more</span>
                           </div>
                         </a>
                       </div>
                       <div className="col-md-6 col-lg-6">
                         <a
-                          href="service.html"
+                          href="/contact"
                           className="mil-service-card-lg mil-more mil-accent-cursor"
                         >
                           <h4 className="mil-muted mil-up mil-mb-30">
@@ -86,56 +87,65 @@ const Services = () => {
                             and Development
                           </h4>
                           <p className="mil-descr mil-light-soft mil-up mil-mb-30">
-                            Our creative agency is a team of professionals
-                            focused on helping your brand grow.
+                            Crucial for designing an engaging, functional, and
+                            intuitive online presence that harmonizes with your
+                            brand&apos;s essence. An agile and comprehensive
+                            approach to developing and maintaining cutting-edge
+                            websites and web applications
                           </p>
                           <ul className="mil-service-list mil-light mil-mb-30">
-                            <li className="mil-up">UX Audits</li>
-                            <li className="mil-up">Design thinking</li>
-                            <li className="mil-up">Methodologies</li>
-                            <li className="mil-up">Wireframing</li>
+                            <li className="mil-up">Web Development</li>
+                            <li className="mil-up">User Experience (UX)</li>
+                            <li className="mil-up">Frontend & Backend</li>
+                            <li className="mil-up">Visual Design</li>
                           </ul>
                           <div className="mil-link mil-accent mil-arrow-place mil-up">
-                            <span>Read more</span>
+                            <span>Know more</span>
                           </div>
                         </a>
                       </div>
                       <div className="col-md-6 col-lg-6">
                         <a
-                          href="service.html"
+                          href="/contact"
                           className="mil-service-card-lg mil-more mil-accent-cursor mil-offset"
                         >
                           <h4 className="mil-muted mil-up mil-mb-30">
                             Advertising and <br />
-                            Marketing Campaigns
+                            Digital Marketing
                           </h4>
                           <p className="mil-descr mil-light-soft mil-up mil-mb-30">
-                            Our creative agency is a team of professionals
-                            focused on helping your brand grow.
+                            Advertisement production focuses on crafting
+                            impactful content to promote products, services, or
+                            brands effectively.Digital marketing transcends
+                            borders, connecting you with a diverse, global
+                            audience through innovative strategies
                           </p>
                           <ul className="mil-service-list mil-light mil-mb-30">
-                            <li className="mil-up">UX Audits</li>
-                            <li className="mil-up">Design thinking</li>
-                            <li className="mil-up">Methodologies</li>
-                            <li className="mil-up">Wireframing</li>
+                            <li className="mil-up">Advertising Production</li>
+                            <li className="mil-up">Analytics</li>
+                            <li className="mil-up">Content Strategy</li>
+                            <li className="mil-up">
+                              SEO (Search Engine Optimization)
+                            </li>
                           </ul>
                           <div className="mil-link mil-accent mil-arrow-place mil-up">
-                            <span>Read more</span>
+                            <span>Know more</span>
                           </div>
                         </a>
                       </div>
                       <div className="col-md-6 col-lg-6">
                         <a
-                          href="service.html"
+                          href="/contact"
                           className="mil-service-card-lg mil-more mil-accent-cursor"
                         >
                           <h4 className="mil-muted mil-up mil-mb-30">
-                            Creative Consulting <br />
-                            Concept Development
+                            Photography and <br />
+                            Videography
                           </h4>
                           <p className="mil-descr mil-light-soft mil-up mil-mb-30">
-                            Our creative agency is a team of professionals
-                            focused on helping your brand grow.
+                            We capture the essence of all your special events,
+                            from weddings and parties to corporate seminars and
+                            exhibitions, with our versatile photography services
                           </p>
                           <ul className="mil-service-list mil-light mil-mb-30">
                             <li className="mil-up">UX Audits</li>
@@ -144,7 +154,7 @@ const Services = () => {
                             <li className="mil-up">Wireframing</li>
                           </ul>
                           <div className="mil-link mil-accent mil-arrow-place mil-up">
-                            <span>Read more</span>
+                            <span>Know more</span>
                           </div>
                         </a>
                       </div>
@@ -172,7 +182,7 @@ const Services = () => {
                 together. Ready <span className="mil-thin">when you are</span>
               </h2>
               <div className="mil-up">
-                <a href="contact.html" className="mil-button mil-arrow-place">
+                <a href="/contact" className="mil-button mil-arrow-place">
                   <span>Contact us</span>
                 </a>
               </div>
