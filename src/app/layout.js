@@ -1,4 +1,4 @@
-import { Outfit } from "next/font/google";
+import { Outfit } from "@next/font/google";
 import "../../public/css/style.css";
 import "../../public/css/plugins/bootstrap-grid.css";
 import "../../public/css/plugins/fancybox.min.css";
@@ -7,11 +7,9 @@ import "./globals.css";
 import Script from "next/script";
 
 const outfit = Outfit({
-  subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   display: "swap",
 });
-
 export const metadata = {
   title: "Night Owl",
   default: "Night Owl",
