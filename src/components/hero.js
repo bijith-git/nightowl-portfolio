@@ -31,11 +31,11 @@ export default function Hero() {
             </h1>
             <div className="row">
               <div className="col-md-7 col-lg-5">
-                <div className="mil-light-soft mil-mb-60">
+                <p className="mil-light-soft mil-mb-60">
                   Welcome to Night Owl , where dreams take flight, and every
                   frame is a masterpiece. Explore the magic within the shadows,
                   where your narrative&nbsp;unfolds
-                </div>
+                </p>
               </div>
             </div>
             <a href="" className="mil-button mil-arrow-place mil-btn-space">

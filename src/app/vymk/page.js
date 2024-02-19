@@ -1,5 +1,9 @@
 import MainLayout from "@/layout/mainLayout";
-
+export const metadata = {
+  title: "VYMK",
+  default: "VYMK",
+  description: "",
+};
 export default function VYMK() {
   return (
     <MainLayout>

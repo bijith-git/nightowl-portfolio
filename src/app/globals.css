@@ -3,6 +3,13 @@
 @import "../../public/css/plugins/bootstrap-grid.css";
 @import "../../public/css/plugins/fancybox.min.css";
 @import "../../public/css/plugins/swiper.min.css";
+
+@font-face {
+  font-family: "Outfit";
+  src: url("/fonts/Outfit.ttf");
+  font-display: swap;
+}
+
 *,
 *:before,
 *:after {

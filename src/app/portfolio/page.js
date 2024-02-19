@@ -2,6 +2,8 @@ import MainLayout from "@/layout/mainLayout";
 
 export const metadata = {
   title: "Portfolio",
+  default: "Portfolio",
+  description: "",
 };
 
 const Portfolio = () => {
@@ -143,7 +145,7 @@ const Portfolio = () => {
                     <div className="mil-label mil-upper mil-accent">Design</div>
                     <div className="mil-label mil-upper">may 24 2023</div>
                   </div>
-                  <h4 className="mil-up">STRING</h4>
+                  <h4 className="mil-up">STRING PUBLICATIONS</h4>
                 </div>
               </a>
             </div>

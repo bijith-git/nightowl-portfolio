@@ -1,3 +1,8 @@
+export const metadata = {
+  title: "Contact Us",
+  default: "Contact Us",
+  description: "",
+};
 export default function Contact() {
   return (
     <div className="mil-content">

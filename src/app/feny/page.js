@@ -1,4 +1,9 @@
 import MainLayout from "@/layout/mainLayout";
+export const metadata = {
+  title: "Feny",
+  default: "Feny",
+  description: "",
+};
 
 export default function Feny() {
   return (

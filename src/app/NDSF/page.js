@@ -1,5 +1,9 @@
 import MainLayout from "@/layout/mainLayout";
-
+export const metadata = {
+  title: "NDSF",
+  default: "NDSF",
+  description: "",
+};
 export default function NDSF() {
   return (
     <MainLayout>

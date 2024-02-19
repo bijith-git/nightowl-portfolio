@@ -49,32 +49,32 @@ export default function Menu() {
                         <ul className="mil-menu-list">
                           <li>
                             <a href="project-1.html" className="mil-light-soft">
-                              Interior design studio
+                              Feny
                             </a>
                           </li>
                           <li>
                             <a href="project-2.html" className="mil-light-soft">
-                              Home Security Camera
+                              NDSF
                             </a>
                           </li>
                           <li>
                             <a href="project-3.html" className="mil-light-soft">
-                              Kemia Honest Skincare
+                              VYMK
                             </a>
                           </li>
                           <li>
                             <a href="project-4.html" className="mil-light-soft">
-                              Cascade of Lava
+                              MUSEUM
                             </a>
                           </li>
                           <li>
                             <a href="project-5.html" className="mil-light-soft">
-                              Air Pro by Molekule
+                              STRING PUBLICATIONS
                             </a>
                           </li>
                           <li>
                             <a href="project-6.html" className="mil-light-soft">
-                              Tony&apos;s Chocolonely
+                              HOT DEGREE
                             </a>
                           </li>
                         </ul>
@@ -83,22 +83,22 @@ export default function Menu() {
                         <h6 className="mil-muted mil-mb-30">Useful links</h6>
                         <ul className="mil-menu-list">
                           <li>
-                            <a href="#." className="mil-light-soft">
+                            <a href="" className="mil-light-soft">
                               Privacy Policy
                             </a>
                           </li>
                           <li>
-                            <a href="#." className="mil-light-soft">
+                            <a href="" className="mil-light-soft">
                               Terms and conditions
                             </a>
                           </li>
                           <li>
-                            <a href="#." className="mil-light-soft">
+                            <a href="" className="mil-light-soft">
                               Cookie Policy
                             </a>
                           </li>
                           <li>
-                            <a href="#." className="mil-light-soft">
+                            <a href="" className="mil-light-soft">
                               Careers
                             </a>
                           </li>
@@ -110,9 +110,8 @@ export default function Menu() {
                       <div className="col-lg-4 mil-mb-60">
                         <h6 className="mil-muted mil-mb-30">Kerala</h6>
                         <div className="mil-light-soft mil-up">
-                          Somratn, 57/627, Water land road Elamkulam,Ernakulam
-                          682020
-                          <span className="mil-no-wrap">+91 8113864689</span>
+                          Somratn, 57/627, Water land road Elamkulam, Ernakulam,
+                          <span className="mil-no-wrap"> 682020</span>
                         </div>
                       </div>
                     </div>

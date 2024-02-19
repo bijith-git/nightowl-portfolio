@@ -65,9 +65,8 @@ function Footer() {
                 <div className="col-md-6 col-lg-5 mil-mb-60">
                   <h6 className="mil-muted mil-up mil-mb-30">Kerala</h6>
                   <div className="mil-light-soft mil-up">
-                    Somratn, 57/627, Water land road Elamkulam,Ernakulam
-                    682020ss
-                    <span className="mil-no-wrap">+51 174 705 812</span>
+                    Somratn, 57/627, Water land road Elamkulam, Ernakulam,
+                    <span className="mil-no-wrap">682020</span>
                   </div>
                 </div>
               </div>
@@ -77,22 +76,22 @@ function Footer() {
                 <div className="mil-mb-30">
                   <ul className="mil-social-icons mil-up">
                     <li>
-                      <Link href="#." target="_blank" className="social-icon">
+                      <Link href="" target="_blank" className="social-icon">
                         <i className="far fa-circle" />
                       </Link>
                     </li>
                     <li>
-                      <Link href="#." target="_blank" className="social-icon">
+                      <Link href="" target="_blank" className="social-icon">
                         <i className="far fa-circle" />
                       </Link>
                     </li>
                     <li>
-                      <Link href="#." target="_blank" className="social-icon">
+                      <Link href="" target="_blank" className="social-icon">
                         <i className="far fa-circle" />
                       </Link>
                     </li>
                     <li>
-                      <Link href="#." target="_blank" className="social-icon">
+                      <Link href="" target="_blank" className="social-icon">
                         <i className="far fa-circle" />
                       </Link>
                     </li>
