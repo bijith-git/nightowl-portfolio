@@ -148,10 +148,10 @@ const Services = () => {
                             exhibitions, with our versatile photography services
                           </p>
                           <ul className="mil-service-list mil-light mil-mb-30">
-                            <li className="mil-up">UX Audits</li>
-                            <li className="mil-up">Design thinking</li>
-                            <li className="mil-up">Methodologies</li>
-                            <li className="mil-up">Wireframing</li>
+                            <li className="mil-up">Weddings Photography</li>
+                            <li className="mil-up">Editing</li>
+                            <li className="mil-up">Color Grading</li>
+                            <li className="mil-up">Shooting</li>
                           </ul>
                           <div className="mil-link mil-accent mil-arrow-place mil-up">
                             <span>Know more</span>
