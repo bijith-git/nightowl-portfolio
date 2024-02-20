@@ -1,4 +1,4 @@
-import { Outfit } from "@next/font/google";
+import { Outfit } from "next/font/google";
 import "../../public/css/style.css";
 import "../../public/css/plugins/bootstrap-grid.css";
 import "../../public/css/plugins/fancybox.min.css";
@@ -22,7 +22,7 @@ function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
           href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
           rel="stylesheet"

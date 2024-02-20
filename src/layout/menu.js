@@ -95,32 +95,32 @@ const Menu = () => {
                         <h6 className="mil-muted mil-mb-30">Projects</h6>
                         <ul className="mil-menu-list">
                           <li>
-                            <a href="project-1.html" className="mil-light-soft">
+                            <a href="/project" className="mil-light-soft">
                               Feny
                             </a>
                           </li>
                           <li>
-                            <a href="project-2.html" className="mil-light-soft">
+                            <a href="/project" className="mil-light-soft">
                               NDSF
                             </a>
                           </li>
                           <li>
-                            <a href="project-3.html" className="mil-light-soft">
+                            <a href="/project" className="mil-light-soft">
                               VYMK
                             </a>
                           </li>
                           <li>
-                            <a href="project-4.html" className="mil-light-soft">
+                            <a href="/project" className="mil-light-soft">
                               MUSEUM
                             </a>
                           </li>
                           <li>
-                            <a href="project-5.html" className="mil-light-soft">
+                            <a href="/project" className="mil-light-soft">
                               STRING PUBLICATIONS
                             </a>
                           </li>
                           <li>
-                            <a href="project-6.html" className="mil-light-soft">
+                            <a href="/project" className="mil-light-soft">
                               HOT DEGREE
                             </a>
                           </li>

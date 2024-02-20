@@ -177,7 +177,7 @@ export default function VYMK() {
               </div>
               <div className="mil-works-nav mil-up">
                 <a
-                  href="project-4.html"
+                  href=""
                   className="mil-link mil-dark mil-arrow-place mil-icon-left"
                 >
                   <span>Prev project</span>
@@ -186,7 +186,7 @@ export default function VYMK() {
                   <span>All projects</span>
                 </a>
                 <a
-                  href="project-6.html"
+                  href=""
                   className="mil-link mil-dark mil-arrow-place"
                 >
                   <span>Next project</span>
@@ -213,7 +213,7 @@ export default function VYMK() {
                   We&apos;re <span className="mil-thin">here to help</span>
                 </h2>
                 <div className="mil-up">
-                  <a href="contact.html" className="mil-button mil-arrow-place">
+                  <a href="/contact" className="mil-button mil-arrow-place">
                     <span>Contact us</span>
                   </a>
                 </div>

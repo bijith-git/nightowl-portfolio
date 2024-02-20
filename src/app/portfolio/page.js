@@ -90,7 +90,7 @@ const Portfolio = () => {
             </div>
             <div className="col-lg-6">
               <a
-                href="project-3.html"
+                href=""
                 className="mil-portfolio-item mil-more mil-parallax mil-mb-60"
                 data-value-1={60}
                 data-value-2={-60}
@@ -111,7 +111,7 @@ const Portfolio = () => {
             </div>
             <div className="col-lg-5">
               <a
-                href="project-4.html"
+                href=""
                 className="mil-portfolio-item mil-more mil-mb-60"
               >
                 <div className="mil-cover-frame mil-vert mil-up">
@@ -132,7 +132,7 @@ const Portfolio = () => {
             </div>
             <div className="col-lg-5">
               <a
-                href="project-5.html"
+                href=""
                 className="mil-portfolio-item mil-more mil-mb-60"
               >
                 <div className="mil-cover-frame mil-vert mil-up">
@@ -151,7 +151,7 @@ const Portfolio = () => {
             </div>
             <div className="col-lg-6">
               <a
-                href="project-6.html"
+                href=""
                 className="mil-portfolio-item mil-more mil-parallax mil-mb-60"
                 data-value-1={60}
                 data-value-2={-60}
@@ -190,7 +190,7 @@ const Portfolio = () => {
               We&apos;re <span className="mil-thin">here to help</span>
             </h2>
             <div className="mil-up">
-              <a href="contact.html" className="mil-button mil-arrow-place">
+              <a href="/contact" className="mil-button mil-arrow-place">
                 <span>Contact us</span>
               </a>
             </div>

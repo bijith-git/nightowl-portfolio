@@ -143,7 +143,7 @@ export default function Feny() {
               <span>All projects</span>
             </a>
             <a
-              href="project-3.html"
+              href=""
               className="mil-link mil-dark mil-arrow-place"
             >
               <span>Next project</span>
@@ -170,7 +170,7 @@ export default function Feny() {
               We&apos;re <span className="mil-thin">here to help</span>
             </h2>
             <div className="mil-up">
-              <a href="contact.html" className="mil-button mil-arrow-place">
+              <a href="/contact" className="mil-button mil-arrow-place">
                 <span>Contact us</span>
               </a>
             </div>

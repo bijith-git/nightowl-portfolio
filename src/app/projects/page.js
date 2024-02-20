@@ -181,7 +181,7 @@ export default function Projects() {
                   <span>All projects</span>
                 </a>
                 <a
-                  href="project-2.html"
+                  href="/project"
                   className="mil-link mil-dark mil-arrow-place"
                 >
                   <span>Next project</span>
@@ -208,7 +208,7 @@ export default function Projects() {
                   We&apos;re <span className="mil-thin">here to help</span>
                 </h2>
                 <div className="mil-up">
-                  <a href="contact.html" className="mil-button mil-arrow-place">
+                  <a href="/contact" className="mil-button mil-arrow-place">
                     <span>Contact us</span>
                   </a>
                 </div>
@@ -505,7 +505,7 @@ export function ProjectType3() {
             </div>
             <div className="mil-works-nav mil-up">
               <a
-                href="project-2.html"
+                href="/project"
                 className="mil-link mil-dark mil-arrow-place mil-icon-left"
               >
                 <span>Prev project</span>
@@ -513,10 +513,7 @@ export function ProjectType3() {
               <a href="/portfolio" className="mil-link mil-dark">
                 <span>All projects</span>
               </a>
-              <a
-                href="project-4.html"
-                className="mil-link mil-dark mil-arrow-place"
-              >
+              <a href="/project" className="mil-link mil-dark mil-arrow-place">
                 <span>Next project</span>
               </a>
             </div>
@@ -541,7 +538,7 @@ export function ProjectType3() {
                 We&apos;re <span className="mil-thin">here to help</span>
               </h2>
               <div className="mil-up">
-                <a href="contact.html" className="mil-button mil-arrow-place">
+                <a href="/contact" className="mil-button mil-arrow-place">
                   <span>Contact us</span>
                 </a>
               </div>
@@ -870,7 +867,7 @@ export function ProjectType4() {
             </div>
             <div className="mil-works-nav mil-up">
               <a
-                href="project-3.html"
+                href="/project"
                 className="mil-link mil-dark mil-arrow-place mil-icon-left"
               >
                 <span>Prev project</span>
@@ -878,10 +875,7 @@ export function ProjectType4() {
               <a href="/portfolio" className="mil-link mil-dark">
                 <span>All projects</span>
               </a>
-              <a
-                href="project-5.html"
-                className="mil-link mil-dark mil-arrow-place"
-              >
+              <a href="/project" className="mil-link mil-dark mil-arrow-place">
                 <span>Next project</span>
               </a>
             </div>
@@ -906,7 +900,7 @@ export function ProjectType4() {
                 We&apos;re <span className="mil-thin">here to help</span>
               </h2>
               <div className="mil-up">
-                <a href="contact.html" className="mil-button mil-arrow-place">
+                <a href="/contact" className="mil-button mil-arrow-place">
                   <span>Contact us</span>
                 </a>
               </div>
@@ -1237,7 +1231,7 @@ export function ProjectType5() {
             </div>
             <div className="mil-works-nav mil-up">
               <a
-                href="project-4.html"
+                href="/project"
                 className="mil-link mil-dark mil-arrow-place mil-icon-left"
               >
                 <span>Prev project</span>
@@ -1245,10 +1239,7 @@ export function ProjectType5() {
               <a href="/portfolio" className="mil-link mil-dark">
                 <span>All projects</span>
               </a>
-              <a
-                href="project-6.html"
-                className="mil-link mil-dark mil-arrow-place"
-              >
+              <a href="/project" className="mil-link mil-dark mil-arrow-place">
                 <span>Next project</span>
               </a>
             </div>
@@ -1273,7 +1264,7 @@ export function ProjectType5() {
                 We&apos;re <span className="mil-thin">here to help</span>
               </h2>
               <div className="mil-up">
-                <a href="contact.html" className="mil-button mil-arrow-place">
+                <a href="/contact" className="mil-button mil-arrow-place">
                   <span>Contact us</span>
                 </a>
               </div>
@@ -1623,7 +1614,7 @@ export function ProjectType6() {
             </div>
             <div className="mil-works-nav mil-up">
               <a
-                href="project-5.html"
+                href="/project"
                 className="mil-link mil-dark mil-arrow-place mil-icon-left"
               >
                 <span>Prev project</span>
@@ -1660,7 +1651,7 @@ export function ProjectType6() {
                 <span className="mil-thin">together</span>
               </h2>
               <div className="mil-up">
-                <a href="contact.html" className="mil-button mil-arrow-place">
+                <a href="/contact" className="mil-button mil-arrow-place">
                   <span>Contact us</span>
                 </a>
               </div>

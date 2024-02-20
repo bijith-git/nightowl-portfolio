@@ -203,7 +203,7 @@ export default function NDSF() {
                   We&apos;re <span className="mil-thin">here to help</span>
                 </h2>
                 <div className="mil-up">
-                  <a href="contact.html" className="mil-button mil-arrow-place">
+                  <a href="contact" className="mil-button mil-arrow-place">
                     <span>Contact us</span>
                   </a>
                 </div>

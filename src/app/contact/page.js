@@ -18,7 +18,7 @@ export default function Contact() {
                     <a href="/">Homepage</a>
                   </li>
                   <li>
-                    <a href="contact.html">Contact</a>
+                    <a href="/contact">Contact</a>
                   </li>
                 </ul>
                 <h1 className="mil-mb-60">Get in touch!</h1>

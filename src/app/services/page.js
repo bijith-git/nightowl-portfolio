@@ -25,7 +25,7 @@ const Services = () => {
                       <a href="/">Homepage</a>
                     </li>
                     <li>
-                      <a href="services.html">Services</a>
+                      <a href="/services">Services</a>
                     </li>
                   </ul>
                   <h1 className="mil-muted mil-mb-60">
