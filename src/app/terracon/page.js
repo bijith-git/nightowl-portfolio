@@ -117,20 +117,7 @@ const Terracon = () => {
                     <img src="img/icons/zoom.svg" alt="zoom" />
                   </a>
                 </div>
-              </div>{" "}
-              <div className="swiper-slide">
-                <div className="mil-image-frame mil-vertical mil-drag">
-                  <img src="img/works/7/6.jpg" alt="image" />
-                  <a
-                    data-fancybox="gallery"
-                    data-no-swup=""
-                    href="img/works/7/6.jpg"
-                    className="mil-zoom-btn"
-                  >
-                    <img src="img/icons/zoom.svg" alt="zoom" />
-                  </a>
-                </div>
-              </div>{" "}
+              </div>
               <div className="swiper-slide">
                 <div className="mil-image-frame mil-vertical mil-drag">
                   <img src="img/works/7/7.jpg" alt="image" />
