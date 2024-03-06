@@ -36,8 +36,8 @@ function RootLayout({ children }) {
         {children}
       </body>
       <Script
-        src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"
         type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
         async
       />
       <Script type="text/javascript" src="js/plugins/swup.min.js" />
