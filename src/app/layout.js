@@ -35,7 +35,11 @@ function RootLayout({ children }) {
       <body suppressHydrationWarning={true} className={outfit.className}>
         {children}
       </body>
-      <Script type="text/javascript" src="js/plugins/jquery.min.js" />
+      <Script
+        src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"
+        type="text/javascript"
+        async
+      />
       <Script type="text/javascript" src="js/plugins/swup.min.js" />
       <Script type="text/javascript" src="js/plugins/swiper.min.js" />
       <Script type="text/javascript" src="js/plugins/fancybox.min.js" />
