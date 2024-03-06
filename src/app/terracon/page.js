@@ -270,7 +270,7 @@ const Terracon = () => {
           </div>
           <div className="mil-works-nav mil-up">
             <a
-              href="project-3.html"
+              href=""
               className="mil-link mil-dark mil-arrow-place mil-icon-left"
             >
               <span>Prev project</span>
@@ -278,12 +278,12 @@ const Terracon = () => {
             <a href="portfolio-1.html" className="mil-link mil-dark">
               <span>All projects</span>
             </a>
-            <a
+            {/* <a
               href="project-5.html"
               className="mil-link mil-dark mil-arrow-place"
             >
               <span>Next project</span>
-            </a>
+            </a> */}
           </div>
         </div>
       </section>
@@ -304,7 +304,7 @@ const Terracon = () => {
               We&apos;re <span className="mil-thin">here to help</span>
             </h2>
             <div className="mil-up">
-              <a href="contact.html" className="mil-button mil-arrow-place">
+              <a href="/contact" className="mil-button mil-arrow-place">
                 <span>Contact us</span>
               </a>
             </div>
