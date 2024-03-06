@@ -60,7 +60,7 @@ const Portfolio = () => {
                       Spot Editing
                     </div>
                     <div className="mil-label mil-upper">
-                      September 17, 20233
+                      September 17, 2023
                     </div>
                   </div>
                   <h4 className="mil-up">Feny</h4>
@@ -110,10 +110,7 @@ const Portfolio = () => {
               </a>
             </div>
             <div className="col-lg-5">
-              <a
-                href=""
-                className="mil-portfolio-item mil-more mil-mb-60"
-              >
+              <a href="" className="mil-portfolio-item mil-more mil-mb-60">
                 <div className="mil-cover-frame mil-vert mil-up">
                   <div className="mil-cover">
                     <img src="img/works/4.png" alt="cover" />
@@ -131,10 +128,7 @@ const Portfolio = () => {
               </a>
             </div>
             <div className="col-lg-5">
-              <a
-                href=""
-                className="mil-portfolio-item mil-more mil-mb-60"
-              >
+              <a href="" className="mil-portfolio-item mil-more mil-mb-60">
                 <div className="mil-cover-frame mil-vert mil-up">
                   <div className="mil-cover">
                     <img src="img/works/5.jpg" alt="cover" />
@@ -149,7 +143,7 @@ const Portfolio = () => {
                 </div>
               </a>
             </div>
-            <div className="col-lg-6">
+            <div className="col-lg-7">
               <a
                 href=""
                 className="mil-portfolio-item mil-more mil-parallax mil-mb-60"
@@ -167,6 +161,27 @@ const Portfolio = () => {
                     <div className="mil-label mil-upper">may 24 2023</div>
                   </div>
                   <h4 className="mil-up">HOT DEGREE</h4>
+                </div>
+              </a>
+            </div>
+            <div className="col-lg-5">
+              <a
+                href="/terracon"
+                className="mil-portfolio-item mil-more mil-mb-60"
+              >
+                <div className="mil-cover-frame mil-vert mil-up">
+                  <div className="mil-cover">
+                    <img src="img/works/5.jpg" alt="cover" />
+                  </div>
+                </div>
+                <div className="mil-descr">
+                  <div className="mil-labels mil-up mil-mb-15">
+                    <div className="mil-label mil-upper mil-accent">
+                      Product Photography
+                    </div>
+                    <div className="mil-label mil-upper">February 24 2023</div>
+                  </div>
+                  <h4 className="mil-up">Terracon</h4>
                 </div>
               </a>
             </div>

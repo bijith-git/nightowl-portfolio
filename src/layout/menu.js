@@ -2,50 +2,40 @@
 import { useEffect, useState } from "react";
 
 const Menu = () => {
-  // const isBrowser = typeof window !== "undefined";
-  // const [currentPath, setCurrentPath] = useState(
-  //   isBrowser ? window.location.pathname : ""
-  // );
+  const isBrowser = typeof document !== "undefined";
+  const [currentPath, setCurrentPath] = useState(
+    isBrowser ? document.location.pathname : ""
+  );
 
-  // useEffect(() => {
-  //   const handleRouteChange = () => {
-  //     const newPath = isBrowser ? window.location.pathname : "";
-  //     setCurrentPath(newPath);
-  //     updateActiveMenu(newPath);
-  //   };
+  const highlightActiveMenu = (currentPath) => {
+    if (isBrowser) {
+      const menuItems = document.querySelectorAll(".mil-main-menu a");
 
-  //   // Initial call when the component mounts
-  //   updateActiveMenu(currentPath);
+      menuItems.forEach((item) => {
+        const itemPath = item.getAttribute("href");
 
-  //   // Subscribe to route changes to update the active class
-  //   if (isBrowser) {
-  //     window.addEventListener("popstate", handleRouteChange);
+        if (currentPath === itemPath) {
+          item.parentNode.classList.add("mil-active");
+        } else {
+          item.parentNode.classList.remove("mil-active");
+        }
+      });
+    }
+  };
 
-  //     // Clean up the event listener on component unmount
-  //     return () => {
-  //       window.removeEventListener("popstate", handleRouteChange);
-  //     };
-  //   }
-  // }, [currentPath, isBrowser]); // useEffect now depends on currentPath and isBrowser
-
-  // const updateActiveMenu = (path) => {
-  //   if (isBrowser) {
-  //     const menuItems = document.querySelectorAll(".mil-main-menu a");
-
-  //     menuItems.forEach((item) => {
-  //       const itemPath = item.getAttribute("href");
-
-  //       // Check if the current path matches the item's href attribute
-  //       if (path === itemPath) {
-  //         // Add mil-active class to the parent li element
-  //         item.parentNode.classList.add("mil-active");
-  //       } else {
-  //         // Remove mil-active class from other li elements
-  //         item.parentNode.classList.remove("mil-active");
-  //       }
-  //     });
-  //   }
-  // };
+  useEffect(() => {
+    highlightActiveMenu(currentPath);
+    const handleRouteChange = () => {
+      const newPath = isBrowser ? document.location.pathname : "";
+      setCurrentPath(newPath);
+    };
+    if (isBrowser) {
+      document.addEventListener("popstate", handleRouteChange);
+      return () => {
+        document.removeEventListener("popstate", handleRouteChange);
+      };
+    }
+  }, [isBrowser, currentPath, highlightActiveMenu]);
   return (
     <>
       <div className="mil-menu-frame">

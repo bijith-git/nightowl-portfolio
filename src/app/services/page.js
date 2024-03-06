@@ -29,9 +29,8 @@ const Services = () => {
                     </li>
                   </ul>
                   <h1 className="mil-muted mil-mb-60">
-                    This is <span className="mil-thin">what</span>
-                    <br />
-                    we do <span className="mil-thin">best</span>
+                    This is <span className="mil-thin"> what </span> <br />
+                    we do <span className="mil-thin"> best </span>
                   </h1>
                   <a
                     href="#services"
