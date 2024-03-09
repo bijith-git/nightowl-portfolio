@@ -85,33 +85,38 @@ const Menu = () => {
                         <h6 className="mil-muted mil-mb-30">Projects</h6>
                         <ul className="mil-menu-list">
                           <li>
-                            <a href="/project" className="mil-light-soft">
+                            <a href="/portfolio" className="mil-light-soft">
                               Feny
                             </a>
                           </li>
                           <li>
-                            <a href="/project" className="mil-light-soft">
+                            <a href="/portfolio" className="mil-light-soft">
                               NDSF
                             </a>
                           </li>
                           <li>
-                            <a href="/project" className="mil-light-soft">
+                            <a href="/portfolio" className="mil-light-soft">
                               VYMK
                             </a>
                           </li>
                           <li>
-                            <a href="/project" className="mil-light-soft">
+                            <a href="/portfolio" className="mil-light-soft">
                               MUSEUM
                             </a>
                           </li>
                           <li>
-                            <a href="/project" className="mil-light-soft">
+                            <a href="/portfolio" className="mil-light-soft">
                               STRING PUBLICATIONS
                             </a>
                           </li>
                           <li>
-                            <a href="/project" className="mil-light-soft">
+                            <a href="/portfolio" className="mil-light-soft">
                               HOT DEGREE
+                            </a>
+                          </li>
+                          <li>
+                            <a href="/terracon" className="mil-light-soft">
+                              Terracon
                             </a>
                           </li>
                         </ul>

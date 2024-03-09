@@ -48,7 +48,7 @@ const Portfolio = () => {
           <div className="mil-lines-place mil-lines-long" />
           <div className="row justify-content-between align-items-center">
             <div className="col-lg-5">
-              <a href="/feny" className="mil-portfolio-item mil-more mil-mb-60">
+              <a href="" className="mil-portfolio-item mil-more mil-mb-60">
                 <div className="mil-cover-frame mil-vert mil-up">
                   <div className="mil-cover">
                     <img src="img/works/1.png" alt="cover" />
@@ -69,7 +69,7 @@ const Portfolio = () => {
             </div>
             <div className="col-lg-6">
               <a
-                href="/NDSF"
+                href=""
                 className="mil-portfolio-item mil-more mil-parallax mil-mb-60"
                 data-value-1={60}
                 data-value-2={-60}
