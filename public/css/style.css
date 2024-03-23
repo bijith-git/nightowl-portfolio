@@ -1239,6 +1239,13 @@ frame
     z-index: 999;
     height: 90px;
   }
+  .mil-frame img {
+    height: 36px;
+    position: fixed;
+    z-index: 999;
+    width: 36px;
+    object-fit: "cover";
+  }
 }
 @media screen and (max-width: 1200px) {
   .mil-frame .mil-frame-top {
@@ -2317,10 +2324,14 @@ partners
 }
 
 .mil-partner-frame {
-  display: block;
+  display: "flex";
+  justify-content: "center";
+  align-items: "center";
 }
 .mil-partner-frame img {
   width: 220px;
+  height: 140px;
+  object-fit: "cover";
 }
 
 /* -------------------------------------------

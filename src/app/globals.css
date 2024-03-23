@@ -2271,12 +2271,15 @@ partners
 }
 
 .mil-partner-frame {
-  display: block;
+  display: "flex";
+  justify-content: "center";
+  align-items: "center";
 }
 .mil-partner-frame img {
   width: 220px;
+  height: 140px;
+  object-fit: "cover";
 }
-
 /* -------------------------------------------
 
 services
@@ -2718,24 +2721,31 @@ revievs
   }
 }
 .mil-revi-pagination .swiper-pagination-bullet .mil-custom-dot.mil-slide-1 {
+  filter: grayscale(100%);
   background-image: url(../../public/img/faces/customers/1.jpg);
 }
 .mil-revi-pagination .swiper-pagination-bullet .mil-custom-dot.mil-slide-2 {
+  filter: grayscale(100%);
   background-image: url(../../public/img/faces/customers/2.jpg);
 }
 .mil-revi-pagination .swiper-pagination-bullet .mil-custom-dot.mil-slide-3 {
+  filter: grayscale(100%);
   background-image: url(../../public/img/faces/customers/3.jpg);
 }
 .mil-revi-pagination .swiper-pagination-bullet .mil-custom-dot.mil-slide-4 {
+  filter: grayscale(100%);
   background-image: url(../../public/img/faces/customers/4.jpg);
 }
 .mil-revi-pagination .swiper-pagination-bullet .mil-custom-dot.mil-slide-5 {
+  filter: grayscale(100%);
   background-image: url(../../public/img/faces/customers/5.jpg);
 }
 .mil-revi-pagination .swiper-pagination-bullet .mil-custom-dot.mil-slide-6 {
+  filter: grayscale(100%);
   background-image: url(../../public/img/faces/customers/6.jpg);
 }
 .mil-revi-pagination .swiper-pagination-bullet .mil-custom-dot.mil-slide-7 {
+  filter: grayscale(100%);
   background-image: url(../../public/img/faces/customers/7.jpg);
 }
 .mil-revi-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
