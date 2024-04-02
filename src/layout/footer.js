@@ -41,7 +41,11 @@ function Footer() {
           <div className="row justify-content-between">
             <div className="col-md-4 col-lg-4 mil-mb-60">
               <div className="mil-muted mil-logo mil-up mil-mb-30">
-                Night Owl.
+                <img
+                  src="/img/icons/logo-02.png"
+                  width={400}
+                  objectFit="cover"
+                />
               </div>
             </div>
             <div className="col-md-7 col-lg-6">

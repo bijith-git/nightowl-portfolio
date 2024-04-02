@@ -1204,6 +1204,35 @@ frame
   font-weight: 500;
   line-height: 100%;
 }
+
+.logo-container {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  background-color: black;
+}
+
+.logo {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.logo::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  mix-blend-mode: difference;
+}
+
+.logo-container:hover .logo::before {
+  background-color: black;
+}
 @media screen and (max-width: 992px) {
   .mil-logo {
     font-size: 36px;

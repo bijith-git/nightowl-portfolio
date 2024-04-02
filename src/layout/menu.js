@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
+import Image from "next/image";
 
 const Menu = () => {
   const isBrowser = typeof document !== "undefined";
@@ -41,7 +42,15 @@ const Menu = () => {
       <div className="mil-menu-frame">
         <div className="mil-frame-top">
           <a href="/" className="mil-logo">
-            N.
+            <div class="logo-container">
+              <Image
+                src="/img/icons/menu-logo.png"
+                width={50}
+                height={50}
+                alt="main-logo"
+                class="logo"
+              />
+            </div>
           </a>
           <div className="mil-menu-btn">
             <span />

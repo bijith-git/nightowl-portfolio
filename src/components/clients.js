@@ -10,9 +10,10 @@ export default function Clients() {
                 style={{
                   display: "flex",
                   justifyContent: "center",
-                  alignItems: "center",
                   objectFit: "cover",
+                  alignItems: "center",
                   height: "100%",
+                  width: "100%",
                 }}
               >
                 <img src="img/partners/logos-01.png" alt="logo" />
@@ -26,6 +27,7 @@ export default function Clients() {
                   justifyContent: "center",
                   alignItems: "center",
                   height: "100%",
+                  width: "100%",
                   objectFit: "cover",
                 }}
               >
@@ -41,6 +43,7 @@ export default function Clients() {
                   objectFit: "cover",
                   alignItems: "center",
                   height: "100%",
+                  width: "100%",
                 }}
               >
                 <img src="img/partners/logos-03.png" alt="logo" />
@@ -55,6 +58,7 @@ export default function Clients() {
                   objectFit: "cover",
                   alignItems: "center",
                   height: "100%",
+                  width: "100%",
                 }}
               >
                 <img src="img/partners/logos-04.png" alt="logo" />
@@ -69,6 +73,7 @@ export default function Clients() {
                   justifyContent: "center",
                   alignItems: "center",
                   height: "100%",
+                  width: "100%",
                 }}
               >
                 <img src="img/partners/logos-05.png" alt="logo" />
@@ -83,6 +88,7 @@ export default function Clients() {
                   justifyContent: "center",
                   alignItems: "center",
                   height: "100%",
+                  width: "100%",
                 }}
               >
                 <img src="img/partners/logos-06.png" alt="logo" />
@@ -97,6 +103,7 @@ export default function Clients() {
                   justifyContent: "center",
                   alignItems: "center",
                   height: "100%",
+                  width: "100%",
                 }}
               >
                 <img src="img/partners/logos-07.png" alt="logo" />
@@ -111,6 +118,7 @@ export default function Clients() {
                   justifyContent: "center",
                   alignItems: "center",
                   height: "100%",
+                  width: "100%",
                 }}
               >
                 <img src="img/partners/logos-08.png" alt="logo" />
@@ -125,6 +133,7 @@ export default function Clients() {
                   justifyContent: "center",
                   alignItems: "center",
                   height: "100%",
+                  width: "100%",
                 }}
               >
                 <img src="img/partners/logos-09.png" alt="logo" />
@@ -139,6 +148,7 @@ export default function Clients() {
                   justifyContent: "center",
                   alignItems: "center",
                   height: "100%",
+                  width: "100%",
                 }}
               >
                 <img src="img/partners/logos-10.png" alt="logo" />
@@ -153,6 +163,7 @@ export default function Clients() {
                   justifyContent: "center",
                   alignItems: "center",
                   height: "100%",
+                  width: "100%",
                 }}
               >
                 <img src="img/partners/logos-11.png" alt="logo" />
@@ -167,6 +178,7 @@ export default function Clients() {
                   justifyContent: "center",
                   alignItems: "center",
                   height: "100%",
+                  width: "100%",
                 }}
               >
                 <img src="img/partners/logos-12.png" alt="logo" />
@@ -181,6 +193,7 @@ export default function Clients() {
                   justifyContent: "center",
                   alignItems: "center",
                   height: "100%",
+                  width: "100%",
                 }}
               >
                 <img src="img/partners/logos-13.png" alt="logo" />
