@@ -72,17 +72,17 @@ function Footer() {
                   <h6 className="mil-muted mil-mb-30">Socials</h6>
                   <ul className="mil-menu-list mil-up mil-mb-60">
                     <li>
-                      <Link href="#." className="mil-light-soft">
+                      <Link href="/" className="mil-light-soft">
                         Instagram
                       </Link>
                     </li>
                     <li>
-                      <Link href="#." className="mil-light-soft">
+                      <Link href="/" className="mil-light-soft">
                         LinkedIn
                       </Link>
                     </li>
                     <li>
-                      <Link href="#." className="mil-light-soft">
+                      <Link href="/" className="mil-light-soft">
                         Facebook
                       </Link>
                     </li>
