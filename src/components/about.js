@@ -1,157 +1,181 @@
 export default function About() {
   return (
-    <section id="about">
-      <div className="container mil-p-120-30">
-        <div className="row justify-content-between align-items-center">
-          <div className="mil-mb-90" style={{ textAlign: "center" }}>
-            <h2 className="mil-up mil-mb-30">
-              Discover Our <span className="mil-thin">Studio</span>
-            </h2>
-            <div
-              className="mil-up mil-mb-20"
-              style={{
-                textAlign: "center",
-                fontSize: "25px",
-                lineHeight: "1.6",
-              }}
-            >
-              Welcome to Night Owl, where creativity meets impact. Our expertise
-              lies in advertising, branding, and design, where we craft
-              compelling narratives that resonate deeply. Our collaboration with
-              renowned brands stands as a testament to our ability to illuminate
-              your vision and elevate your brand to new heights. Join us on a
-              journey where the night becomes a canvas for innovation and
-              excellence. At Night Owl, your story isn&apos;t just told,
-              it&apos;s vividly brought to life.
-            </div>
-            <style
-              dangerouslySetInnerHTML={{
-                __html: `
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      color: #333;
-    }
-
-    .header {
-      background-color: #f2f2f2;
-      padding: 20px;
-      text-align: center;
-      font-size: 30px;
-    }
-
-    .header a {
-      color: #333;
-      text-decoration: none;
-      margin: 0 5px;
-    }
-
-    .content {
-      padding: 40px;
-      text-align: center;
-      font-size: 30px;
-    }
-
-    .services-container {
-      display: flex;
-      flex-wrap: wrap;
-    }
-
-    .service {
-      flex: 0 0 33.33%; /* Each service takes up 1/3 of the container width */
-      text-align: center;
-      padding: 20px;
-      box-sizing: border-box;
-    }
-       .service h2 {
-        color: rgb(255, 152, 0);
-        margin-bottom: 5px;
-      }
-
-    .service p {
-      margin-top: 5px;
-      textAlign: "center",
-      lineHeight: "1.2",
-    }
-
-    .service img {
-      width: 100%;
-      height: auto;
-    }
-
-    /* Media query for smaller screen sizes */
-    @media (max-width: 768px) {
-      .service {
-        flex: 0 0 50%; 
-      }
-    }
-
-    /* Media query for even smaller screen sizes */
-    @media (max-width: 480px) {
-      .service {
-        flex: 0 0 100%;
-      }
-    }
-  `,
-              }}
-            />
-            <div className="content">
-              <p
-                style={{
-                  textAlign: "center",
-                  padding: "10px 0",
-                  lineHeight: "1.2",
-                }}
-              >
-                <strong>Media Production and Management</strong> | Content
-                Creation &amp; Development
-              </p>
-              <p
-                style={{
-                  textAlign: "center",
-                  padding: "10px 0",
-                  lineHeight: "1.2",
-                }}
-              >
-                Event Coordination &amp; Coverage |
-                <strong>Advertisement Content &amp; Creation</strong>
-              </p>
-              <p
-                style={{
-                  textAlign: "center",
-                  padding: "10px 0",
-                  lineHeight: "1.2",
-                }}
-              >
-                Product Design |
-                <strong>Branding , Posters &amp; Animation</strong>
-              </p>
-              <p
-                style={{
-                  textAlign: "center",
-                  padding: "10px 0",
-                  lineHeight: "1.2",
-                }}
-              >
-                Exhibition Designs | <strong>3D Modeling</strong> | Documentary
-                &amp; Brand Videos
-              </p>
-              <div class="services-container">
-                <div class="service">
-                  <h2>12+</h2>
-                  <p>Branding</p>
-                </div>
-                <div class="service">
-                  <h2>3+</h2>
-                  <p>Production</p>
-                </div>
-                <div class="service">
-                  <h2>30+</h2>
-                  <p>Digital Ads</p>
-                </div>
+    <section className="about-section">
+      <div className="container">
+        <div className="row">
+          <div className="content-column col-lg-6 col-md-12 col-sm-12 order-2">
+            <div className="inner-column">
+              <div className="sec-title">
+                <span className="title">About Company</span>
+                <h2 classname="mil-up mil-mb-30">
+                  Discover Our <span classname="mil-thin">Studio</span>
+                </h2>
+              </div>
+              <div className="text">
+                Welcome to Night Owl, where creativity meets impact. Our
+                expertise lies in advertising, branding, and design, where we
+                craft compelling narratives that resonate deeply. Our
+                collaboration with renowned brands stands as a testament to our
+                ability to illuminate your vision and elevate your brand to new
+                heights. Join us on a journey where the night becomes a canvas
+                for innovation and excellence. At Night Owl, your story
+                isn&apos;t just told, it&apos;s vividly brought to life.
+              </div>
+              <ul className="list-style-one">
+                <li>12+ Branding</li>
+                <li>3+ Production</li>
+                <li>30+ Digital Ads</li>
+              </ul>
+              <div className="btn-box">
+                <a
+                  href="#"
+                  style={{ backgroundColor: "#FF9800", width: 240 }}
+                  className="btn px-4 py-3 mt-4 text-white d-flex align-items-center justify-content-between"
+                >
+                  <span>Grab Our Brochure</span>
+                  <svg
+                    width="25px"
+                    fill="currentColor"
+                    version="1.1"
+                    id="Capa_1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlnsXlink="http://www.w3.org/1999/xlink"
+                    x="0px"
+                    y="0px"
+                    viewBox="0 0 489 489"
+                    style={{ enableBackground: "new 0 0 489 489" }}
+                    xmlSpace="preserve"
+                  >
+                    <g>
+                      <g>
+                        <path
+                          d="M329.2,327.2c-4.5,0-8.1,3.4-8.6,7.9c-3.9,38.6-36.5,68.7-76.2,68.7c-39.6,0-72.2-30.1-76.2-68.7
+        c-0.5-4.4-4.1-7.9-8.6-7.9h-104c-21.8,0-39.5,17.7-39.5,39.5v82.8c0,21.8,17.7,39.5,39.5,39.5h377.8c21.8,0,39.5-17.7,39.5-39.5
+        v-82.7c0-21.8-17.7-39.5-39.5-39.5H329.2V327.2z"
+                        />
+                        <path
+                          d="M303.5,198.6l-30.9,30.9V28.1C272.6,12.6,260,0,244.5,0l0,0c-15.5,0-28.1,12.6-28.1,28.1v201.4l-30.9-30.9
+        c-9.5-9.5-24.7-11.9-35.9-4.4c-15.3,10.2-16.8,31.1-4.5,43.4l82.8,82.8c9.2,9.2,24.1,9.2,33.3,0l82.8-82.8
+        c12.3-12.3,10.8-33.2-4.5-43.4C328.2,186.6,313,189,303.5,198.6z"
+                        />
+                      </g>
+                    </g>
+                  </svg>
+                </a>
+                {/* <a href="#" className="theme-btn btn-style-one">
+                  Contact Us
+                </a> */}
               </div>
             </div>
+          </div>
+          <div className="image-column col-lg-6 col-md-12 col-sm-12">
+            <div className="inner-column wow fadeInLeft">
+              <figure className="image-1">
+                <a href="#" className="lightbox-image" data-fancybox="images">
+                  <img
+                    src="https://i.ibb.co/QP6Nmpf/image-1-about.jpg"
+                    alt=""
+                  />
+                </a>
+              </figure>
+              <figure className="image-2">
+                <a href="#" className="lightbox-image" data-fancybox="images">
+                  <img
+                    src="https://i.ibb.co/JvN0NVB/image-2-about.jpg"
+                    alt=""
+                  />
+                </a>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container my-5">
+        <div className="row">
+          <div className="col-md-6 p-4 p-sm-5 order-2 order-sm-1">
+            {/* <small className="text-uppercase" style={{ color: "#FF9800" }}>
+              About us
+            </small> */}
+            <h1 className="h2 mb-4" style={{ fontWeight: 600 }}>
+              Our <span style={{ color: "#FF9800" }}>Vision</span>
+            </h1>
+            <p className="text-secondary" style={{ lineHeight: 2 }}>
+              To ascend to the forefront of the media production industry,
+              becoming a respected and sought-after partner for businesses
+              seeking to elevate their brand image and achieve marketing goals.
+              This will be achieved through a continued focus on delivering
+              exceptional creative talent, fostering a team of passionate and
+              skilled professionals who consistently produce high-quality work.
+              The company will also strive for unwavering commitment to client
+              satisfaction, ensuring clear communication, exceeding
+              expectations, and building long-term partnerships.
+            </p>
+            {/* <a
+              href="#"
+              style={{ backgroundColor: "#FF9800", width: 240 }}
+              className="btn px-4 py-3 mt-4 text-white d-flex align-items-center justify-content-between"
+            >
+              <span>Download Profile</span>
+              <svg
+                width="25px"
+                fill="currentColor"
+                version="1.1"
+                id="Capa_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlnsXlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                viewBox="0 0 489 489"
+                style={{ enableBackground: "new 0 0 489 489" }}
+                xmlSpace="preserve"
+              >
+                <g>
+                  <g>
+                    <path
+                      d="M329.2,327.2c-4.5,0-8.1,3.4-8.6,7.9c-3.9,38.6-36.5,68.7-76.2,68.7c-39.6,0-72.2-30.1-76.2-68.7
+        c-0.5-4.4-4.1-7.9-8.6-7.9h-104c-21.8,0-39.5,17.7-39.5,39.5v82.8c0,21.8,17.7,39.5,39.5,39.5h377.8c21.8,0,39.5-17.7,39.5-39.5
+        v-82.7c0-21.8-17.7-39.5-39.5-39.5H329.2V327.2z"
+                    />
+                    <path
+                      d="M303.5,198.6l-30.9,30.9V28.1C272.6,12.6,260,0,244.5,0l0,0c-15.5,0-28.1,12.6-28.1,28.1v201.4l-30.9-30.9
+        c-9.5-9.5-24.7-11.9-35.9-4.4c-15.3,10.2-16.8,31.1-4.5,43.4l82.8,82.8c9.2,9.2,24.1,9.2,33.3,0l82.8-82.8
+        c12.3-12.3,10.8-33.2-4.5-43.4C328.2,186.6,313,189,303.5,198.6z"
+                    />
+                  </g>
+                </g>
+              </svg>
+            </a> */}
+          </div>
+          <div className="col-md-6 p-0 text-center order-1 order-sm-2">
+            <img
+              src="https://images.pexels.com/photos/3184430/pexels-photo-3184430.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              className="w-100"
+              alt=""
+            />
+          </div>
+          <div className="col-md-6 p-0 text-center">
+            <img
+              src="https://images.pexels.com/photos/2467506/pexels-photo-2467506.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              className="w-100"
+              alt=""
+            />
+          </div>
+          <div className="col-md-6 p-4 p-sm-5">
+            {/* <small className="text-uppercase" style={{ color: "#FF9800" }}>
+    
+            </small> */}
+            <h1 className="h2 mb-4" style={{ fontWeight: 600 }}>
+              Our <span style={{ color: "#FF9800" }}>Mission</span>
+            </h1>
+            <p className="text-secondary" style={{ lineHeight: 2 }}>
+              Collaborate with clients to develop a vision and plan to craft
+              exceptional media productions that resonate with target audiences
+              and deliver a message with clarity and impact. Embrace innovation
+              in storytelling methods and production techniques to captivate
+              viewers and ensure the content remains fresh and engaging over
+              time.
+            </p>
+            {/* */}
           </div>
         </div>
       </div>
