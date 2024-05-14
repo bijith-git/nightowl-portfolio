@@ -1,4 +1,14 @@
 export default function About() {
+  const downloadResume = () => {
+    const pdfUrl =
+      "https://github.com/bijith-git/nightowl-portfolio/blob/master/public/pdf/NIGHTOWL.pdf?raw=true";
+    const aTag = document.createElement("a");
+    aTag.href = pdfUrl;
+    aTag.setAttribute("download", "NIGHTOWL");
+    document.body.appendChild(aTag);
+    aTag.click();
+    aTag.remove();
+  };
   return (
     <section className="about-section">
       <div className="container">
@@ -27,8 +37,11 @@ export default function About() {
                 <li>30+ Digital Ads</li>
               </ul>
               <div className="btn-box">
-                <a
-                  href="#"
+                <button
+                  onClick={() => {
+                    console.log("pressed");
+                    downloadResume();
+                  }}
                   style={{ backgroundColor: "#FF9800", width: 240 }}
                   className="btn px-4 py-3 mt-4 text-white d-flex align-items-center justify-content-between"
                 >
@@ -61,17 +74,14 @@ export default function About() {
                       </g>
                     </g>
                   </svg>
-                </a>
-                {/* <a href="#" className="theme-btn btn-style-one">
-                  Contact Us
-                </a> */}
+                </button>
               </div>
             </div>
           </div>
           <div className="image-column col-lg-6 col-md-12 col-sm-12">
             <div className="inner-column wow fadeInLeft">
               <figure className="image-1">
-                <a href="#" className="lightbox-image" data-fancybox="images">
+                <a href="" className="lightbox-image" data-fancybox="images">
                   <img
                     src="img/photo/about_main.jpg"
                     alt=""
@@ -81,7 +91,7 @@ export default function About() {
                 </a>
               </figure>
               <figure className="image-2">
-                <a href="#" className="lightbox-image" data-fancybox="images">
+                <a href="" className="lightbox-image" data-fancybox="images">
                   <img src="img/photo/about_sub.jpg" alt="" />
                 </a>
               </figure>
@@ -92,9 +102,6 @@ export default function About() {
       <div className="container my-5">
         <div className="row">
           <div className="col-md-6 p-4 p-sm-5 order-2 order-sm-1">
-            {/* <small className="text-uppercase" style={{ color: "#FF9800" }}>
-              About us
-            </small> */}
             <h1 className="h2 mb-4" style={{ fontWeight: 600 }}>
               Our <span style={{ color: "#FF9800" }}>Vision</span>
             </h1>
@@ -109,41 +116,6 @@ export default function About() {
               satisfaction, ensuring clear communication, exceeding
               expectations, and building long-term partnerships.
             </p>
-            {/* <a
-              href="#"
-              style={{ backgroundColor: "#FF9800", width: 240 }}
-              className="btn px-4 py-3 mt-4 text-white d-flex align-items-center justify-content-between"
-            >
-              <span>Download Profile</span>
-              <svg
-                width="25px"
-                fill="currentColor"
-                version="1.1"
-                id="Capa_1"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlnsXlink="http://www.w3.org/1999/xlink"
-                x="0px"
-                y="0px"
-                viewBox="0 0 489 489"
-                style={{ enableBackground: "new 0 0 489 489" }}
-                xmlSpace="preserve"
-              >
-                <g>
-                  <g>
-                    <path
-                      d="M329.2,327.2c-4.5,0-8.1,3.4-8.6,7.9c-3.9,38.6-36.5,68.7-76.2,68.7c-39.6,0-72.2-30.1-76.2-68.7
-        c-0.5-4.4-4.1-7.9-8.6-7.9h-104c-21.8,0-39.5,17.7-39.5,39.5v82.8c0,21.8,17.7,39.5,39.5,39.5h377.8c21.8,0,39.5-17.7,39.5-39.5
-        v-82.7c0-21.8-17.7-39.5-39.5-39.5H329.2V327.2z"
-                    />
-                    <path
-                      d="M303.5,198.6l-30.9,30.9V28.1C272.6,12.6,260,0,244.5,0l0,0c-15.5,0-28.1,12.6-28.1,28.1v201.4l-30.9-30.9
-        c-9.5-9.5-24.7-11.9-35.9-4.4c-15.3,10.2-16.8,31.1-4.5,43.4l82.8,82.8c9.2,9.2,24.1,9.2,33.3,0l82.8-82.8
-        c12.3-12.3,10.8-33.2-4.5-43.4C328.2,186.6,313,189,303.5,198.6z"
-                    />
-                  </g>
-                </g>
-              </svg>
-            </a> */}
           </div>
           <div className="col-md-6 p-0 text-center order-1 order-sm-2">
             <img
@@ -162,9 +134,6 @@ export default function About() {
             />
           </div>
           <div className="col-md-6 p-4 p-sm-5">
-            {/* <small className="text-uppercase" style={{ color: "#FF9800" }}>
-    
-            </small> */}
             <h1 className="h2 mb-4" style={{ fontWeight: 600 }}>
               Our <span style={{ color: "#FF9800" }}>Mission</span>
             </h1>
@@ -176,7 +145,6 @@ export default function About() {
               viewers and ensure the content remains fresh and engaging over
               time.
             </p>
-            {/* */}
           </div>
         </div>
       </div>
