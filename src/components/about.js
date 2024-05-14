@@ -73,17 +73,16 @@ export default function About() {
               <figure className="image-1">
                 <a href="#" className="lightbox-image" data-fancybox="images">
                   <img
-                    src="https://i.ibb.co/QP6Nmpf/image-1-about.jpg"
+                    src="img/photo/about_main.jpg"
                     alt=""
+                    width={420}
+                    height={510}
                   />
                 </a>
               </figure>
               <figure className="image-2">
                 <a href="#" className="lightbox-image" data-fancybox="images">
-                  <img
-                    src="https://i.ibb.co/JvN0NVB/image-2-about.jpg"
-                    alt=""
-                  />
+                  <img src="img/photo/about_sub.jpg" alt="" />
                 </a>
               </figure>
             </div>
@@ -148,15 +147,17 @@ export default function About() {
           </div>
           <div className="col-md-6 p-0 text-center order-1 order-sm-2">
             <img
-              src="https://images.pexels.com/photos/3184430/pexels-photo-3184430.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-              className="w-100"
+              src="img/photo/our_vision.jpg"
+              width={500}
+              height={333}
+              // className="w-100"
               alt=""
             />
           </div>
           <div className="col-md-6 p-0 text-center">
             <img
-              src="https://images.pexels.com/photos/2467506/pexels-photo-2467506.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-              className="w-100"
+              src="img/photo/our_mission.jpg"
+              // className="w-100"
               alt=""
             />
           </div>
