@@ -20,7 +20,12 @@ const MainLayout = ({ children, noFooter }) => {
         <div className="mil-frame">
           <div className="mil-frame-top">
             <a href="/" className="mil-logo">
-              N.
+              <Image
+                src="/img/icons/menu-logo.png"
+                width={50}
+                height={50}
+                alt="logo"
+              />
             </a>
             <div className="mil-menu-btn">
               <span></span>
