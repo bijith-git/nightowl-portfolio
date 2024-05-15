@@ -1,10 +1,12 @@
+import Link from "next/link";
+
 export default function About() {
   const downloadResume = () => {
     const pdfUrl =
-      "https://github.com/bijith-git/nightowl-portfolio/blob/master/public/pdf/NIGHTOWL.pdf?raw=true";
+      "https://raw.githubusercontent.com/bijith-git/Bijith-portfolio/master/public/BIJITH_P_N.pdf";
     const aTag = document.createElement("a");
     aTag.href = pdfUrl;
-    aTag.setAttribute("download", "NIGHTOWL");
+    aTag.setAttribute("download", "Bijith P N Resume");
     document.body.appendChild(aTag);
     aTag.click();
     aTag.remove();
@@ -17,8 +19,8 @@ export default function About() {
             <div className="inner-column">
               <div className="sec-title">
                 <span className="title">About Company</span>
-                <h2 classname="mil-up mil-mb-30">
-                  Discover Our <span classname="mil-thin">Studio</span>
+                <h2 className="mil-up mil-mb-30">
+                  Discover Our <span className="mil-thin">Studio</span>
                 </h2>
               </div>
               <div className="text">
@@ -37,44 +39,43 @@ export default function About() {
                 <li>30+ Digital Ads</li>
               </ul>
               <div className="btn-box">
-                <button
-                  onClick={() => {
-                    console.log("pressed");
-                    downloadResume();
-                  }}
-                  style={{ backgroundColor: "#FF9800", width: 240 }}
-                  className="btn px-4 py-3 mt-4 text-white d-flex align-items-center justify-content-between"
-                >
-                  <span>Grab Our Brochure</span>
-                  <svg
-                    width="25px"
-                    fill="currentColor"
-                    version="1.1"
-                    id="Capa_1"
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlnsXlink="http://www.w3.org/1999/xlink"
-                    x="0px"
-                    y="0px"
-                    viewBox="0 0 489 489"
-                    style={{ enableBackground: "new 0 0 489 489" }}
-                    xmlSpace="preserve"
+                <Link legacyBehavior href="">
+                  <button
+                    onClick={() => downloadResume()}
+                    style={{ backgroundColor: "#FF9800", width: 240 }}
+                    className="btn px-4 py-3 mt-4 text-white d-flex align-items-center justify-content-between"
                   >
-                    <g>
+                    <span>Grab Our Brochure</span>
+                    <svg
+                      width="25px"
+                      fill="currentColor"
+                      version="1.1"
+                      id="Capa_1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlnsXlink="http://www.w3.org/1999/xlink"
+                      x="0px"
+                      y="0px"
+                      viewBox="0 0 489 489"
+                      style={{ enableBackground: "new 0 0 489 489" }}
+                      xmlSpace="preserve"
+                    >
                       <g>
-                        <path
-                          d="M329.2,327.2c-4.5,0-8.1,3.4-8.6,7.9c-3.9,38.6-36.5,68.7-76.2,68.7c-39.6,0-72.2-30.1-76.2-68.7
+                        <g>
+                          <path
+                            d="M329.2,327.2c-4.5,0-8.1,3.4-8.6,7.9c-3.9,38.6-36.5,68.7-76.2,68.7c-39.6,0-72.2-30.1-76.2-68.7
         c-0.5-4.4-4.1-7.9-8.6-7.9h-104c-21.8,0-39.5,17.7-39.5,39.5v82.8c0,21.8,17.7,39.5,39.5,39.5h377.8c21.8,0,39.5-17.7,39.5-39.5
         v-82.7c0-21.8-17.7-39.5-39.5-39.5H329.2V327.2z"
-                        />
-                        <path
-                          d="M303.5,198.6l-30.9,30.9V28.1C272.6,12.6,260,0,244.5,0l0,0c-15.5,0-28.1,12.6-28.1,28.1v201.4l-30.9-30.9
+                          />
+                          <path
+                            d="M303.5,198.6l-30.9,30.9V28.1C272.6,12.6,260,0,244.5,0l0,0c-15.5,0-28.1,12.6-28.1,28.1v201.4l-30.9-30.9
         c-9.5-9.5-24.7-11.9-35.9-4.4c-15.3,10.2-16.8,31.1-4.5,43.4l82.8,82.8c9.2,9.2,24.1,9.2,33.3,0l82.8-82.8
         c12.3-12.3,10.8-33.2-4.5-43.4C328.2,186.6,313,189,303.5,198.6z"
-                        />
+                          />
+                        </g>
                       </g>
-                    </g>
-                  </svg>
-                </button>
+                    </svg>
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

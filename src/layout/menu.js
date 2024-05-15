@@ -42,13 +42,13 @@ const Menu = () => {
       <div className="mil-menu-frame">
         <div className="mil-frame-top">
           <a href="/" className="mil-logo">
-            <div class="logo-container">
+            <div className="logo-container">
               <Image
                 src="/img/icons/menu-logo.png"
                 width={50}
                 height={50}
                 alt="main-logo"
-                class="logo"
+                className="logo"
               />
             </div>
           </a>
