@@ -4179,6 +4179,43 @@ ul {
   padding: 0;
   list-style: none;
 }
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 992px) {
+  .col-md-6 {
+    flex: 0 0 100%; /* Full width on smaller screens */
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .h2.mb-4 {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+  }
+}
+.image-column {
+  position: relative;
+}
+
+.image-column .inner-column {
+  position: relative;
+  padding-left: 0; /* Remove left padding */
+  padding-bottom: 0; /* Remove bottom padding */
+}
+
+.image-column .image-1 {
+  margin-bottom: 20px; /* Add margin for better spacing */
+}
+
+.image-column .image-2 {
+  margin-bottom: 20px; /* Add margin for better spacing */
+}
+
+.image-column .image-2 img,
+.image-column .image-1 img {
+  width: 100%; /* Make images responsive */
+  height: auto; /* Maintain aspect ratio */
+}
 img {
   max-width: 100%;
   height: auto;

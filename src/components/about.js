@@ -126,35 +126,38 @@ export default function About() {
       </div>
       <div className="container my-5">
         <div className="row">
-          <div className="col-md-6 p-4 p-sm-5 order-2 order-sm-1">
-            <h1 className="h2 mb-4" style={{ fontWeight: 600 }}>
-              Our <span style={{ color: "#FF9800" }}>Vision</span>
-            </h1>
-            <p className="text-secondary" style={{ lineHeight: 2 }}>
-              To ascend to the forefront of the media production industry,
-              becoming a respected and sought-after partner for businesses
-              seeking to elevate their brand image and achieve marketing goals.
-              This will be achieved through a continued focus on delivering
-              exceptional creative talent, fostering a team of passionate and
-              skilled professionals who consistently produce high-quality work.
-              The company will also strive for unwavering commitment to client
-              satisfaction, ensuring clear communication, exceeding
-              expectations, and building long-term partnerships.
-            </p>
-          </div>
           <div className="col-md-6 p-0 text-center order-1 order-sm-2">
             <img
               src="img/photo/our_vision.jpg"
               width={500}
               height={333}
-              // className="w-100"
               alt=""
             />
           </div>
+          <div className="col-md-6 p-4 p-sm-5 order-2 order-sm-1">
+            <h1 className="h2 mb-4" style={{ fontWeight: 600 }}>
+              Our <span style={{ color: "#FF9800" }}>Vision</span>
+            </h1>
+            <p className="text-secondary" style={{ lineHeight: 2 }}>
+              <p className="text-secondary" style={{ lineHeight: 2 }}>
+                To ascend to the forefront of the media production industry,
+                becoming a respected and sought-after partner for businesses
+                seeking to elevate their brand image and achieve marketing
+                goals. This will be achieved through a continued focus on
+                delivering exceptional creative talent, fostering a team of
+                passionate and skilled professionals who consistently produce
+                high-quality work. The company will also strive for unwavering
+                commitment to client satisfaction, ensuring clear communication,
+                exceeding expectations, and building long-term partnerships.
+              </p>
+            </p>
+          </div>
+
           <div className="col-md-6 p-0 text-center">
             <img
               src="img/photo/our_mission.jpg"
-              // className="w-100"
+              width={500}
+              height={333}
               alt=""
             />
           </div>
@@ -163,12 +166,14 @@ export default function About() {
               Our <span style={{ color: "#FF9800" }}>Mission</span>
             </h1>
             <p className="text-secondary" style={{ lineHeight: 2 }}>
-              Collaborate with clients to develop a vision and plan to craft
-              exceptional media productions that resonate with target audiences
-              and deliver a message with clarity and impact. Embrace innovation
-              in storytelling methods and production techniques to captivate
-              viewers and ensure the content remains fresh and engaging over
-              time.
+              <p className="text-secondary" style={{ lineHeight: 2 }}>
+                Collaborate with clients to develop a vision and plan to craft
+                exceptional media productions that resonate with target
+                audiences and deliver a message with clarity and impact. Embrace
+                innovation in storytelling methods and production techniques to
+                captivate viewers and ensure the content remains fresh and
+                engaging over time.
+              </p>
             </p>
           </div>
         </div>
