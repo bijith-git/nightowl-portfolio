@@ -1,6 +1,4 @@
-import Link from "next/link";
 import { useState } from "react";
-import DownloadButton from "./downloadbutton";
 export default function About() {
   const [hovered, setHovered] = useState(false);
   const handleDownload = () => {
