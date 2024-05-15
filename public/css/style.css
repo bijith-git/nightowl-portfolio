@@ -4240,36 +4240,27 @@ img {
 
 .list-style-one {
   position: relative;
+  list-style: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+  text-align: center; /* Align list items horizontally */
 }
 
 .list-style-one li {
-  position: relative;
   font-size: 17px;
   line-height: 26px;
   color: #222222;
   font-weight: 400;
-  padding-left: 35px;
   margin-bottom: 12px;
+  display: flex; /* Use flexbox for vertical alignment */
+  align-items: center; /* Align items vertically */
 }
 
 .list-style-one li:before {
-  content: "\f058";
-  position: absolute;
-  left: 0;
-  top: 0px;
-  bottom: 0;
-  display: block;
-  font-size: 22px;
-  padding: 0px;
-  color: rgb(255, 152, 0);
-  font-weight: 600;
-  -moz-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  line-height: 1.6;
-  font-family: "Font Awesome 5 Free";
+  content: "•"; /* Use bullet point as the list item marker */
+  font-size: 20px; /* Adjust the size of the bullet point */
+  color: rgb(255, 152, 0); /* Adjust the color of the bullet point */
+  font-weight: bold; /* Adjust the weight of the bullet point */
+  margin-right: 10px; /* Add space between bullet point and text */
 }
 
 .list-style-one li a:hover {

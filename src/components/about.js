@@ -1,15 +1,15 @@
 import Link from "next/link";
-
+import { useState } from "react";
+import DownloadButton from "./downloadbutton";
 export default function About() {
-  const downloadResume = () => {
+  const [hovered, setHovered] = useState(false);
+  const handleDownload = () => {
     const pdfUrl =
       "https://github.com/bijith-git/nightowl-portfolio/blob/master/public/pdf/NIGHTOWL.pdf?raw=true";
-    const aTag = document.createElement("a");
-    aTag.href = pdfUrl;
-    aTag.setAttribute("download", "Bijith P N Resume");
-    document.body.appendChild(aTag);
-    aTag.click();
-    aTag.remove();
+    const a = document.createElement("a");
+    a.href = pdfUrl;
+    a.download = "NIGHTOWL.pdf";
+    a.click();
   };
   return (
     <section className="about-section">
@@ -37,45 +37,71 @@ export default function About() {
                 <li>12+ Branding</li>
                 <li>3+ Production</li>
                 <li>30+ Digital Ads</li>
-              </ul>
+              </ul>{" "}
               <div className="btn-box">
-                <Link legacyBehavior href="">
-                  <button
-                    onClick={() => downloadResume()}
-                    style={{ backgroundColor: "#FF9800", width: 240 }}
-                    className="btn px-4 py-3 mt-4 text-white d-flex align-items-center justify-content-between"
+                {" "}
+                <style jsx>{`
+                  .button {
+                    background-color: #ff9800;
+                    color: #fff;
+                    padding: 10px 20px;
+                    border: none;
+                    border-radius: 10px;
+                    font-size: 16px;
+                    font-weight: bold;
+                    cursor: pointer;
+                    transition: background-color 0.3s, transform 0.3s;
+                    display: flex;
+                    align-items: center;
+                  }
+
+                  .button:hover {
+                    background-color: #ffb74d;
+                    transform: scale(1.05);
+                  }
+
+                  .icon {
+                    margin-left: 10px;
+                  }
+                `}</style>
+                <button
+                  className={`button ${
+                    hovered ? "hovered" : ""
+                  }   className="btn px-4 py-3 mt-4 text-white d-flex align-items-center justify-content-between"`}
+                  onClick={handleDownload}
+                  onMouseEnter={() => setHovered(true)}
+                  onMouseLeave={() => setHovered(false)}
+                >
+                  <span>Grab Our Brochure</span>
+                  <svg
+                    width="25px"
+                    fill="currentColor"
+                    version="1.1"
+                    id="Capa_1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlnsXlink="http://www.w3.org/1999/xlink"
+                    x="0px"
+                    y="0px"
+                    viewBox="0 0 489 489"
+                    style={{ enableBackground: "new 0 0 489 489" }}
+                    xmlSpace="preserve"
                   >
-                    <span>Grab Our Brochure</span>
-                    <svg
-                      width="25px"
-                      fill="currentColor"
-                      version="1.1"
-                      id="Capa_1"
-                      xmlns="http://www.w3.org/2000/svg"
-                      xmlnsXlink="http://www.w3.org/1999/xlink"
-                      x="0px"
-                      y="0px"
-                      viewBox="0 0 489 489"
-                      style={{ enableBackground: "new 0 0 489 489" }}
-                      xmlSpace="preserve"
-                    >
+                    <g>
                       <g>
-                        <g>
-                          <path
-                            d="M329.2,327.2c-4.5,0-8.1,3.4-8.6,7.9c-3.9,38.6-36.5,68.7-76.2,68.7c-39.6,0-72.2-30.1-76.2-68.7
+                        <path
+                          d="M329.2,327.2c-4.5,0-8.1,3.4-8.6,7.9c-3.9,38.6-36.5,68.7-76.2,68.7c-39.6,0-72.2-30.1-76.2-68.7
         c-0.5-4.4-4.1-7.9-8.6-7.9h-104c-21.8,0-39.5,17.7-39.5,39.5v82.8c0,21.8,17.7,39.5,39.5,39.5h377.8c21.8,0,39.5-17.7,39.5-39.5
         v-82.7c0-21.8-17.7-39.5-39.5-39.5H329.2V327.2z"
-                          />
-                          <path
-                            d="M303.5,198.6l-30.9,30.9V28.1C272.6,12.6,260,0,244.5,0l0,0c-15.5,0-28.1,12.6-28.1,28.1v201.4l-30.9-30.9
+                        />
+                        <path
+                          d="M303.5,198.6l-30.9,30.9V28.1C272.6,12.6,260,0,244.5,0l0,0c-15.5,0-28.1,12.6-28.1,28.1v201.4l-30.9-30.9
         c-9.5-9.5-24.7-11.9-35.9-4.4c-15.3,10.2-16.8,31.1-4.5,43.4l82.8,82.8c9.2,9.2,24.1,9.2,33.3,0l82.8-82.8
         c12.3-12.3,10.8-33.2-4.5-43.4C328.2,186.6,313,189,303.5,198.6z"
-                          />
-                        </g>
+                        />
                       </g>
-                    </svg>
-                  </button>
-                </Link>
+                    </g>
+                  </svg>
+                </button>{" "}
               </div>
             </div>
           </div>

@@ -50,22 +50,18 @@ function RootLayout({ children }) {
         src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
         async
       />
-      <Script type="text/javascript" src="js/plugins/swup.min.js" />
-      {/* <Script type="text/javascript" src="js/plugins/swiper.min.js" /> */}
-      {/* <Script type="text/javascript" src="js/plugins/fancybox.min.js" /> */}
-      <Script type="text/javascript" src="js/plugins/gsap.min.js" />
-      <Script type="text/javascript" src="js/plugins/smooth-scroll.js" />
-      {/* <Script
-        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
-        
-      /> */}
-      {/* <Script
-        src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"
-        
-      /> */}
-      <Script type="text/javascript" src="js/plugins/ScrollTrigger.min.js" />
-      <Script type="text/javascript" src="js/plugins/ScrollTo.min.js" />
-      <Script type="text/javascript" src="js/main.js" />
+      <Script type="text/javascript" src="js/plugins/swup.min.js" async />
+
+      <Script type="text/javascript" src="js/plugins/gsap.min.js" async />
+      <Script type="text/javascript" src="js/plugins/smooth-scroll.js" async />
+
+      <Script
+        type="text/javascript"
+        src="js/plugins/ScrollTrigger.min.js"
+        async
+      />
+      <Script type="text/javascript" src="js/plugins/ScrollTo.min.js" async />
+      <Script type="text/javascript" src="js/main.js" async />
     </html>
   );
 }
