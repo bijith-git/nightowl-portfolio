@@ -4444,3 +4444,19 @@ html.is-animating .mil-menu-frame {
   -webkit-transition-delay: 0.3s;
   transition-delay: 0.3s;
 }
+/* Ensure images fit properly within the container */
+.mil-partner-img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain; /* Ensure images maintain aspect ratio and fit within container */
+}
+
+/* Adjust partner frame size */
+.mil-partner-frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px; /* Set a specific height for the container */
+}
