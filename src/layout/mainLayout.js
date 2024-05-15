@@ -2,7 +2,7 @@
 import Footer from "./footer";
 import Menu from "./menu";
 import CustomCursor from "./cursor";
-import Preloader from "./preloader";
+import { Preloader } from "./preloader";
 import ScrollProgress from "./scrollProgress";
 import Curtain from "./curtain";
 import Image from "next/image";
@@ -21,15 +21,6 @@ const MainLayout = ({ children, noFooter }) => {
           <div className="mil-frame-top">
             <a href="/" className="mil-logo">
               N.
-              {/* <div class="logo-container">
-                <Image
-                  src="/img/icons/menu-logo.png"
-                  width={50}
-                  height={50}
-                  alt="main-logo"
-                  class="logo"
-                />
-              </div> */}
             </a>
             <div className="mil-menu-btn">
               <span></span>

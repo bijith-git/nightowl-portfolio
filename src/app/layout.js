@@ -4,6 +4,7 @@ import "../../public/css/plugins/bootstrap-grid.css";
 import "../../public/css/plugins/fancybox.min.css";
 import "../../public/css/plugins/swiper.min.css";
 import "./globals.css";
+// import "./main";
 import Script from "next/script";
 
 const outfit = Outfit({
@@ -31,6 +32,11 @@ function RootLayout({ children }) {
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
         ></link>
+        <Script
+          type="text/javascript"
+          src="https://code.jquery.com/jquery-3.6.0.min.js"
+          async
+        />
       </head>
       <body suppressHydrationWarning={true} className={outfit.className}>
         {children}
