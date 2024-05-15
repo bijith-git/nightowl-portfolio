@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function About() {
   const downloadResume = () => {
     const pdfUrl =
-      "https://raw.githubusercontent.com/bijith-git/Bijith-portfolio/master/public/BIJITH_P_N.pdf";
+      "https://github.com/bijith-git/nightowl-portfolio/blob/master/public/pdf/NIGHTOWL.pdf?raw=true";
     const aTag = document.createElement("a");
     aTag.href = pdfUrl;
     aTag.setAttribute("download", "Bijith P N Resume");
